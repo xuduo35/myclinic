@@ -48,7 +48,7 @@ var yaopinexample = [{
 var allcases = [{
     _id: idgenerator(),
     topicid: global_id - 1, // 作为一个Ref, 用来关联复诊
-    name: '秦始皇',
+    name: '张三',
     first: false,
     date: moment(),
     idnumber: '360281198204134690',
@@ -62,7 +62,7 @@ var allcases = [{
     ethnic: '汉族',
     education: '本科',
     married: 'yes',
-    occupation: '皇帝',
+    occupation: '农民',
     complaint: '感冒三天',
     curr_complaint: '发烧出汗怕冷',
     past_complaint: '脑梗',
@@ -204,7 +204,7 @@ var users = [{
 var historys = [{
     _id: idgenerator(),
     topicid: allcases[0]._id, // 关联到病例的初诊病例
-    name: '秦始皇',
+    name: '张三',
     date: allcases[0].date,   // 初诊日期
     idnumber: '360281198204134690',
     gender: 'male',
@@ -217,7 +217,7 @@ var historys = [{
     ethnic: '汉族',
     education: '本科',
     married: 'yes',
-    occupation: '皇帝',
+    occupation: '农民',
     text: '',                 // 病程记录, 就是一段医生可以编辑的文本
     feedback: 0,
     lastmod: moment(),
