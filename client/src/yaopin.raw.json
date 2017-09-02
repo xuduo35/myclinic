@@ -1,0 +1,5091 @@
+[
+  {
+    "name": "阿托伐他汀钙片",
+    "tradename": "阿乐",
+    "standard": "10mg*7片/盒",
+    "type": "循环系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "阿昔莫司胶囊",
+    "tradename": "益平",
+    "standard": "0.25g*24粒/盒",
+    "type": "循环系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "艾司洛尔注射液",
+    "tradename": "爱络",
+    "standard": "0.1g:10ml*5支/盒",
+    "type": "循环系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "胞磷胆碱钠氯化钠注射液",
+    "tradename": "友欣",
+    "standard": "50ml:0.5g/瓶",
+    "type": "循环系统药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "胞磷胆碱注射液",
+    "tradename": "尼可林",
+    "standard": "0.25g:2ml*10支/盒",
+    "type": "循环系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "苯磺酸氨氯地平片",
+    "tradename": "络活喜",
+    "standard": "5mg*7片/盒",
+    "type": "循环系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "苯磺酸氨氯地平片",
+    "tradename": "压氏达",
+    "standard": "5mg*14片/盒",
+    "type": "循环系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "苯扎贝特片",
+    "tradename": "阿贝他",
+    "standard": "0.2g*20片/盒",
+    "type": "循环系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "吡拉西坦葡萄糖注射液",
+    "tradename": "庆达",
+    "standard": "100ml:8g:5g/瓶",
+    "type": "循环系统药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "长春胺缓释胶囊",
+    "tradename": "奥勃兰",
+    "standard": "30mg*10粒/盒",
+    "type": "循环系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "长春西汀注射液",
+    "tradename": "润坦",
+    "standard": "10mg/支",
+    "type": "循环系统药物",
+    "unit": "支"
+  },
+  {
+    "name": "川芎嗪葡萄糖注射液",
+    "tradename": "助达",
+    "standard": "100ml:40mg/瓶",
+    "type": "循环系统药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "丹参酮IIA磺钠注射液",
+    "tradename": "诺新康",
+    "standard": "2ml:10mg*6支/盒",
+    "type": "循环系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "丹红注射液",
+    "tradename": "倍通",
+    "standard": "10ml/支",
+    "type": "循环系统药物",
+    "unit": "支"
+  },
+  {
+    "name": "单硝酸异山梨脂注射液",
+    "tradename": "鲁南欣康针",
+    "standard": "20mg:5ml*6支/盒",
+    "type": "循环系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "单硝酸异山梨酯缓释胶囊",
+    "tradename": "异乐定",
+    "standard": "50mg*10粒/盒",
+    "type": "循环系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "单硝酸异山梨酯片",
+    "tradename": "鲁南欣康片",
+    "standard": "20mg*48片/盒",
+    "type": "循环系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "厄贝沙坦片",
+    "tradename": "安博维",
+    "standard": "0.15g*7片/盒",
+    "type": "循环系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "厄贝沙坦氢氯噻嗪片",
+    "tradename": "依伦平",
+    "standard": "150mg:12.5mg*7片/盒",
+    "type": "循环系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "非洛地平缓释片",
+    "tradename": "波依定",
+    "standard": "5mg*10片/盒",
+    "type": "循环系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "非诺贝特胶囊",
+    "tradename": "力平之",
+    "standard": "200mg*10粒/盒",
+    "type": "循环系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "氟伐他汀钠胶囊",
+    "tradename": "来适可",
+    "standard": "40mg*7粒/盒",
+    "type": "循环系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "福辛普利钠片",
+    "tradename": "蒙诺",
+    "standard": "10mg*14片/盒",
+    "type": "循环系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "复方丹参注射液",
+    "tradename": "香丹",
+    "standard": "10ml*5支/盒",
+    "type": "循环系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "复方卡托普利片",
+    "tradename": "开富特",
+    "standard": "1片*100片/瓶",
+    "type": "循环系统药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "复方赖氨酸颗粒",
+    "tradename": "康脑灵颗粒",
+    "standard": "3g*10袋/盒",
+    "type": "循环系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "复方利血平氨苯蝶啶片",
+    "tradename": "0号",
+    "standard": "1片*20片/盒",
+    "type": "循环系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "复方硫酸双肼屈嗪片",
+    "tradename": "常降片",
+    "standard": "1片*60片/包",
+    "type": "循环系统药物",
+    "unit": "包"
+  },
+  {
+    "name": "复方亚油酸乙酯胶丸",
+    "tradename": "脉通胶囊",
+    "standard": "1粒*100粒/瓶",
+    "type": "循环系统药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "富马酸比索洛尔片",
+    "tradename": "博苏",
+    "standard": "5mg*10片/袋",
+    "type": "循环系统药物",
+    "unit": "袋"
+  },
+  {
+    "name": "葛根素葡萄糖注射液",
+    "tradename": "普润",
+    "standard": "250ml/袋",
+    "type": "循环系统药物",
+    "unit": "袋"
+  },
+  {
+    "name": "葛根素注射液",
+    "tradename": "普乐林",
+    "standard": "0.1g:2ml*10支/盒",
+    "type": "循环系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "桂利嗪片",
+    "tradename": "脑益嗪",
+    "standard": "25mg*100片/瓶",
+    "type": "循环系统药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "果糖二磷酸钠注射液",
+    "tradename": "FDP",
+    "standard": "5g:50ml/瓶",
+    "type": "循环系统药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "环磷腺苷葡胺注射液",
+    "tradename": "心先安",
+    "standard": "60mg*6支/盒",
+    "type": "循环系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "巯甲丙脯酸片",
+    "tradename": "卡托普利片",
+    "standard": "25mg*100片/瓶",
+    "type": "循环系统药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "去乙酰毛花苷注射液",
+    "tradename": "西地兰",
+    "standard": "0.4mg:2ml*10支/盒",
+    "type": "循环系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "三磷酸胞苷二钠注射液",
+    "tradename": "维力安",
+    "standard": "2ml:20mg/支",
+    "type": "循环系统药物",
+    "unit": "支"
+  },
+  {
+    "name": "三磷酸胞苷二钠注射液",
+    "tradename": "欣诺尔",
+    "standard": "2ml:40mg*10支/盒",
+    "type": "循环系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "舒血宁注射液",
+    "tradename": "杏雪",
+    "standard": "5ml/支",
+    "type": "循环系统药物",
+    "unit": "支"
+  },
+  {
+    "name": "维生素E烟酸酯胶囊",
+    "tradename": "威氏克",
+    "standard": "0.1g*48粒/盒",
+    "type": "循环系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "西拉普利片",
+    "tradename": "一平苏",
+    "standard": "2.5mg*16片/盒",
+    "type": "循环系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "硝苯地平缓释片",
+    "tradename": "纳欣同",
+    "standard": "20mg*20片/盒",
+    "type": "循环系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "硝苯地平缓释片",
+    "tradename": "圣通平",
+    "standard": "10mg*56片/盒",
+    "type": "循环系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "硝苯地平控释片",
+    "tradename": "拜新同",
+    "standard": "30mg*7片/盒",
+    "type": "循环系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "硝苯地平片",
+    "tradename": "心痛定",
+    "standard": "10mg*100片/瓶",
+    "type": "循环系统药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "硝酸异山梨酯片",
+    "tradename": "消心痛",
+    "standard": "5mg*100片/瓶",
+    "type": "循环系统药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "硝酸异山梨酯注射液",
+    "tradename": "异舒吉",
+    "standard": "10mg:10ml*10支/盒",
+    "type": "循环系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "小牛血去蛋白提取物注射液",
+    "tradename": "迪艾洛维",
+    "standard": "0.2g:5ml/支",
+    "type": "循环系统药物",
+    "unit": "支"
+  },
+  {
+    "name": "小牛血去蛋白提取物注射液",
+    "tradename": "帅奇",
+    "standard": "0.2g:5ml/支",
+    "type": "循环系统药物",
+    "unit": "支"
+  },
+  {
+    "name": "缬沙坦分散片",
+    "tradename": "平欣",
+    "standard": "40mg*24片/盒",
+    "type": "循环系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "缬沙坦胶囊",
+    "tradename": "代文",
+    "standard": "80mg*7粒/盒",
+    "type": "循环系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "缬沙坦胶囊",
+    "tradename": "缬克",
+    "standard": "80mg*7粒/盒",
+    "type": "循环系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "辛伐他汀片",
+    "tradename": "正旨平",
+    "standard": "5mg*24片/盒",
+    "type": "循环系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "辛伐他汀片",
+    "tradename": "舒降之",
+    "standard": "20mg*7片/盒",
+    "type": "循环系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "杏芎氯化钠注射液",
+    "tradename": "美托康",
+    "standard": "250ml/瓶",
+    "type": "循环系统药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "烟酸缓释片",
+    "tradename": "本悦",
+    "standard": "0.5g*20片/盒",
+    "type": "循环系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "盐酸胺碘酮片",
+    "tradename": "可达龙片",
+    "standard": "0.2g*10片/盒",
+    "type": "循环系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "盐酸胺碘酮注射液",
+    "tradename": "可达龙针",
+    "standard": "150mg*6支/盒",
+    "type": "循环系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "盐酸贝那普利片",
+    "tradename": "洛汀新",
+    "standard": "10mg*14片/盒",
+    "type": "循环系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "盐酸地尔硫卓片",
+    "tradename": "恬尔心片",
+    "standard": "30mg*40片/盒",
+    "type": "循环系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "盐酸地芬尼多片",
+    "tradename": "眩晕停",
+    "standard": "25mg*30片/盒",
+    "type": "循环系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "盐酸氟桂利嗪胶囊",
+    "tradename": "西比灵",
+    "standard": "5mg*20粒/盒",
+    "type": "循环系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "盐酸美西律片",
+    "tradename": "慢心律",
+    "standard": "50mg*100片/瓶",
+    "type": "循环系统药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "盐酸普罗帕酮片",
+    "tradename": "心律平片",
+    "standard": "50mg*50片/瓶",
+    "type": "循环系统药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "盐酸普罗帕酮注射液",
+    "tradename": "心律平针",
+    "standard": "35mg:5ml*5支/盒",
+    "type": "循环系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "盐酸普萘洛尔片",
+    "tradename": "心得安",
+    "standard": "10mg*100片/瓶",
+    "type": "循环系统药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "盐酸去氧肾上腺素注射液",
+    "tradename": "新福林",
+    "standard": "10mg*2支/盒",
+    "type": "循环系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "盐酸山莨菪碱注射液",
+    "tradename": "654-2",
+    "standard": "10mg:1ml*10支/盒",
+    "type": "循环系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "盐酸维拉帕米片",
+    "tradename": "异博定片",
+    "standard": "40mg*30片/瓶",
+    "type": "循环系统药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "茴拉西坦颗粒",
+    "tradename": "益灵舒",
+    "standard": "0.1g*10袋/盒",
+    "type": "循环系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "甲磺酸倍他司汀片",
+    "tradename": "敏使朗",
+    "standard": "6mg*30片/盒",
+    "type": "循环系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "甲磺酸二氢麦角碱缓释胶囊",
+    "tradename": "培磊能",
+    "standard": "2.5mg*30片/盒",
+    "type": "循环系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "甲磺酸酚妥拉明注射液",
+    "tradename": "立其丁",
+    "standard": "10mg*5支/盒",
+    "type": "循环系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "酒石酸美托洛尔片",
+    "tradename": "倍他乐克",
+    "standard": "25mg*20片/板",
+    "type": "循环系统药物",
+    "unit": "板"
+  },
+  {
+    "name": "卡托普利注射液",
+    "tradename": "开富林针",
+    "standard": "25mg:1ml/支",
+    "type": "循环系统药物",
+    "unit": "支"
+  },
+  {
+    "name": "赖诺普利胶囊",
+    "tradename": "帝益洛",
+    "standard": "10mg*14粒/盒",
+    "type": "循环系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "马来酸依那普利片",
+    "tradename": "怡那林",
+    "standard": "10mg*16片/盒",
+    "type": "循环系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "盐酸米多君片",
+    "tradename": "管通",
+    "standard": "2.5mg*20片/盒",
+    "type": "循环系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "米力农注射液",
+    "tradename": "鲁南力康",
+    "standard": "5mg*2支/盒",
+    "type": "循环系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "尼麦角林片",
+    "tradename": "乐喜林",
+    "standard": "5mg*24片/盒",
+    "type": "循环系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "尼莫地平片",
+    "tradename": "尼莫同片",
+    "standard": "30mg*20片/盒",
+    "type": "循环系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "尼莫地平注射液",
+    "tradename": "尼莫同针",
+    "standard": "50ml:10mg/瓶",
+    "type": "循环系统药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "培哚普利片",
+    "tradename": "雅施达",
+    "standard": "4mg*10片/盒",
+    "type": "循环系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "普伐他汀钠片",
+    "tradename": "普拉固20",
+    "standard": "20mg*5片/盒",
+    "type": "循环系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "前列地尔注射液",
+    "tradename": "凯时",
+    "standard": "2ml:10ug/支",
+    "type": "循环系统药物",
+    "unit": "支"
+  },
+  {
+    "name": "盐酸维拉帕米注射液",
+    "tradename": "异博定针",
+    "standard": "5mg:2ml*5支/盒",
+    "type": "循环系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "银杏达莫注射液",
+    "tradename": "杏丁",
+    "standard": "5ml/支",
+    "type": "循环系统药物",
+    "unit": "支"
+  },
+  {
+    "name": "吲达帕胺片",
+    "tradename": "纳催离",
+    "standard": "2.5mg*10片/盒",
+    "type": "循环系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "重酒石酸间羟胺注射液",
+    "tradename": "阿拉明",
+    "standard": "10mg:1ml*2支/盒",
+    "type": "循环系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "注射用长春西汀",
+    "tradename": "丁那",
+    "standard": "10mg/瓶",
+    "type": "循环系统药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "注射用长春西汀",
+    "tradename": "迪汀",
+    "standard": "5mg/瓶",
+    "type": "循环系统药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "注射用葛根素",
+    "tradename": "麦普宁",
+    "standard": "200mg/瓶",
+    "type": "循环系统药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "注射用葛根素",
+    "tradename": "欣易通",
+    "standard": "100mg/瓶",
+    "type": "循环系统药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "注射用果糖二磷酸钠",
+    "tradename": "佛迪针",
+    "standard": "10g/瓶",
+    "type": "循环系统药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "注射用环磷腺苷",
+    "tradename": "康纳欣",
+    "standard": "20mg/瓶",
+    "type": "循环系统药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "注射用环磷腺苷葡胺",
+    "tradename": "尤尼清",
+    "standard": "30mg*6瓶/盒",
+    "type": "循环系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "注射用三磷酸胞苷二钠",
+    "tradename": "西复朗",
+    "standard": "40mg/瓶",
+    "type": "循环系统药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "注射用血塞通",
+    "tradename": "络泰",
+    "standard": "400mg/瓶",
+    "type": "循环系统药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "注射用血栓通",
+    "tradename": "中恒",
+    "standard": "150mg*4瓶/盒",
+    "type": "循环系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "注射用左卡尼汀",
+    "tradename": "可谱妥",
+    "standard": "1g/瓶",
+    "type": "循环系统药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "左卡尼汀注射液",
+    "tradename": "雷卡",
+    "standard": "1g:5ml/支",
+    "type": "循环系统药物",
+    "unit": "支"
+  },
+  {
+    "name": "阿苯达唑片",
+    "tradename": "肠虫清",
+    "standard": "0.2g*10片/盒",
+    "type": "抗感染类药物",
+    "unit": "盒"
+  },
+  {
+    "name": "阿莫西林胶囊",
+    "tradename": "阿莫灵",
+    "standard": "0.25g*24粒/盒",
+    "type": "抗感染类药物",
+    "unit": "盒"
+  },
+  {
+    "name": "阿莫西林颗粒",
+    "tradename": "阿莫仙干糖浆",
+    "standard": "0.125g*12包/盒",
+    "type": "抗感染类药物",
+    "unit": "盒"
+  },
+  {
+    "name": "阿莫西林克拉维酸钾分散片",
+    "tradename": "君尔清片",
+    "standard": "0.2285g*12片/盒",
+    "type": "抗感染类药物",
+    "unit": "盒"
+  },
+  {
+    "name": "阿奇霉素颗粒剂",
+    "tradename": "赛奇",
+    "standard": "0.25g*6袋/盒",
+    "type": "抗感染类药物",
+    "unit": "盒"
+  },
+  {
+    "name": "阿奇霉素片",
+    "tradename": "浦乐奇",
+    "standard": "0.25g*6片/盒",
+    "type": "抗感染类药物",
+    "unit": "盒"
+  },
+  {
+    "name": "阿奇霉素注射液",
+    "tradename": "亚思达",
+    "standard": "0.25g:2ml*1支/支",
+    "type": "抗感染类药物",
+    "unit": "支"
+  },
+  {
+    "name": "阿奇霉素氯化钠注射液",
+    "tradename": "抒罗康",
+    "standard": "250ml:0.25g/瓶",
+    "type": "抗感染类药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "奥硝唑胶囊",
+    "tradename": "齐克",
+    "standard": "0.25g*12粒/盒",
+    "type": "抗感染类药物",
+    "unit": "盒"
+  },
+  {
+    "name": "奥硝唑氯化钠注射液",
+    "tradename": "圣诺安针",
+    "standard": "0.5g:100ml/瓶",
+    "type": "抗感染类药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "奥硝唑氯化钠注射液",
+    "tradename": "奥诺星",
+    "standard": "0.5g:100ml/瓶",
+    "type": "抗感染类药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "奥硝唑注射液",
+    "tradename": "普司立",
+    "standard": "0.25g:5ml*5支/盒",
+    "type": "抗感染类药物",
+    "unit": "盒"
+  },
+  {
+    "name": "穿心莲内酯注射液",
+    "tradename": "莲必治针",
+    "standard": "5ml:0.25g/支",
+    "type": "抗感染类药物",
+    "unit": "支"
+  },
+  {
+    "name": "醋酸卡泊芬净针",
+    "tradename": "科赛斯",
+    "standard": "70mg/支",
+    "type": "抗感染类药物",
+    "unit": "支"
+  },
+  {
+    "name": "呋喃妥因片",
+    "tradename": "呋喃坦叮",
+    "standard": "0.05g*100片/瓶",
+    "type": "抗感染类药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "呋喃唑酮片",
+    "tradename": "痢特灵片",
+    "standard": "0.1g*100片/瓶",
+    "type": "抗感染类药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "盐酸小檗碱片",
+    "tradename": "黄连素",
+    "standard": "0.1g*100片/瓶",
+    "type": "抗感染类药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "盐酸左氧氟沙星胶囊",
+    "tradename": "左克胶囊",
+    "standard": "0.1g*12粒/盒",
+    "type": "抗感染类药物",
+    "unit": "盒"
+  },
+  {
+    "name": "盐酸左氧氟沙星注射液",
+    "tradename": "左克针",
+    "standard": "2ml:0.1g*4支/盒",
+    "type": "抗感染类药物",
+    "unit": "盒"
+  },
+  {
+    "name": "氧氟沙星片",
+    "tradename": "泰利必妥片",
+    "standard": "0.1g*10片/盒",
+    "type": "抗感染类药物",
+    "unit": "盒"
+  },
+  {
+    "name": "伊曲康唑胶囊",
+    "tradename": "斯皮仁诺胶囊",
+    "standard": "0.1g*14粒/盒",
+    "type": "抗感染类药物",
+    "unit": "盒"
+  },
+  {
+    "name": "伊曲康唑注射液",
+    "tradename": "斯皮仁诺针",
+    "standard": "250mg/支",
+    "type": "抗感染类药物",
+    "unit": "支"
+  },
+  {
+    "name": "依诺沙星胶囊",
+    "tradename": "再威",
+    "standard": "0.2g*10粒/盒",
+    "type": "抗感染类药物",
+    "unit": "盒"
+  },
+  {
+    "name": "依托红霉素片",
+    "tradename": "无味红霉素",
+    "standard": "0.125g*100片/盒",
+    "type": "抗感染类药物",
+    "unit": "盒"
+  },
+  {
+    "name": "注射用阿洛西林钠",
+    "tradename": "阿乐欣",
+    "standard": "2g/瓶",
+    "type": "抗感染类药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "注射用阿莫西林钠",
+    "tradename": "益萨林",
+    "standard": "1g/瓶",
+    "type": "抗感染类药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "注射用阿莫西林钠克拉维酸钾",
+    "tradename": "君尔清针",
+    "standard": "1.2g/瓶",
+    "type": "抗感染类药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "注射用阿莫西林钠舒巴坦钠",
+    "tradename": "力坦",
+    "standard": "1.5g/瓶",
+    "type": "抗感染类药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "注射用氨苄西林钠舒巴坦钠",
+    "tradename": "凯德林",
+    "standard": "0.75g/瓶",
+    "type": "抗感染类药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "注射用苯唑青霉素钠",
+    "tradename": "新青霉素II",
+    "standard": "0.5g/瓶",
+    "type": "抗感染类药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "注射用更昔洛韦",
+    "tradename": "丽科伟",
+    "standard": "50mg/瓶",
+    "type": "抗感染类药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "注射用加替沙星",
+    "tradename": "罗欣严达",
+    "standard": "0.2g/瓶",
+    "type": "抗感染类药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "注射用两性霉素B",
+    "tradename": "安浮特克",
+    "standard": "50mg/瓶",
+    "type": "抗感染类药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "注射用美罗培南",
+    "tradename": "倍能",
+    "standard": "0.5g/瓶",
+    "type": "抗感染类药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "氟康唑注射液",
+    "tradename": "大扶康针",
+    "standard": "0.1g:50ml/瓶",
+    "type": "抗感染类药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "氟罗沙星葡萄糖注射液",
+    "tradename": "天方罗星",
+    "standard": "0.2g:100ml/瓶",
+    "type": "抗感染类药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "红霉素肠溶胶囊",
+    "tradename": "美红",
+    "standard": "250mg*10粒/盒",
+    "type": "抗感染类药物",
+    "unit": "盒"
+  },
+  {
+    "name": "环丙沙星注射液",
+    "tradename": "西普乐",
+    "standard": "0.2g:100ml/瓶",
+    "type": "抗感染类药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "加替沙星胶囊",
+    "tradename": "严立菲",
+    "standard": "0.2g*6粒/盒",
+    "type": "抗感染类药物",
+    "unit": "盒"
+  },
+  {
+    "name": "加替沙星胶囊",
+    "tradename": "敢诺新",
+    "standard": "0.2g*6粒/盒",
+    "type": "抗感染类药物",
+    "unit": "盒"
+  },
+  {
+    "name": "加替沙星氯化钠注射液",
+    "tradename": "利欧",
+    "standard": "0.2g:100ml/袋",
+    "type": "抗感染类药物",
+    "unit": "袋"
+  },
+  {
+    "name": "加替沙星注射液",
+    "tradename": "海超",
+    "standard": "0.2g:20ml/支",
+    "type": "抗感染类药物",
+    "unit": "支"
+  },
+  {
+    "name": "甲硝唑片",
+    "tradename": "灭滴灵",
+    "standard": "0.2g*21片/板",
+    "type": "抗感染类药物",
+    "unit": "板"
+  },
+  {
+    "name": "甲氧苄啶注射液",
+    "tradename": "甲能泰",
+    "standard": "2ml:0.1g/支",
+    "type": "抗感染类药物",
+    "unit": "支"
+  },
+  {
+    "name": "克林霉素磷酸酯凝胶",
+    "tradename": "达林",
+    "standard": "200mg:20g/支",
+    "type": "抗感染类药物",
+    "unit": "支"
+  },
+  {
+    "name": "克林霉素磷酸酯注射液",
+    "tradename": "力派",
+    "standard": "0.3g/支",
+    "type": "抗感染类药物",
+    "unit": "支"
+  },
+  {
+    "name": "利巴韦林注射液",
+    "tradename": "病毒唑",
+    "standard": "0.1g:1ml*10支/盒",
+    "type": "抗感染类药物",
+    "unit": "盒"
+  },
+  {
+    "name": "利福霉素钠注射液",
+    "tradename": "立复欣针",
+    "standard": "0.25g/支",
+    "type": "抗感染类药物",
+    "unit": "支"
+  },
+  {
+    "name": "硫酸阿米卡星注射液",
+    "tradename": "丁胺卡那霉素",
+    "standard": "0.2g*10支/盒",
+    "type": "抗感染类药物",
+    "unit": "盒"
+  },
+  {
+    "name": "硫酸依替米星注射液",
+    "tradename": "创成",
+    "standard": "0.1g:2ml*6支/盒",
+    "type": "抗感染类药物",
+    "unit": "盒"
+  },
+  {
+    "name": "罗红霉素分散片",
+    "tradename": "芙欣",
+    "standard": "0.15g*10片/盒",
+    "type": "抗感染类药物",
+    "unit": "盒"
+  },
+  {
+    "name": "莫匹罗星软膏",
+    "tradename": "百多邦",
+    "standard": "5g/支",
+    "type": "抗感染类药物",
+    "unit": "支"
+  },
+  {
+    "name": "诺氟沙星胶囊",
+    "tradename": "氟哌酸",
+    "standard": "0.1g*12粒/板",
+    "type": "抗感染类药物",
+    "unit": "板"
+  },
+  {
+    "name": "乳酸司帕沙星片",
+    "tradename": "力贝尔",
+    "standard": "0.1g*6片/盒",
+    "type": "抗感染类药物",
+    "unit": "盒"
+  },
+  {
+    "name": "酮康唑片",
+    "tradename": "里素劳",
+    "standard": "0.2g*10片/盒",
+    "type": "抗感染类药物",
+    "unit": "盒"
+  },
+  {
+    "name": "头孢丙烯片",
+    "tradename": "施复捷",
+    "standard": "0.25g*6片/盒",
+    "type": "抗感染类药物",
+    "unit": "盒"
+  },
+  {
+    "name": "头孢克洛干混悬",
+    "tradename": "希刻劳混悬剂",
+    "standard": "0.125g*6袋/盒",
+    "type": "抗感染类药物",
+    "unit": "盒"
+  },
+  {
+    "name": "头孢克洛缓释片",
+    "tradename": "帅先",
+    "standard": "0.375g*4粒/盒",
+    "type": "抗感染类药物",
+    "unit": "盒"
+  },
+  {
+    "name": "头孢克洛缓释片",
+    "tradename": "希刻劳缓释片",
+    "standard": "0.375g*4粒/盒",
+    "type": "抗感染类药物",
+    "unit": "盒"
+  },
+  {
+    "name": "头孢克肟干糖浆",
+    "tradename": "世福素干糖浆",
+    "standard": "50mg*6包/盒",
+    "type": "抗感染类药物",
+    "unit": "盒"
+  },
+  {
+    "name": "头孢拉定胶囊",
+    "tradename": "先锋6号",
+    "standard": "0.25g*24粒/盒",
+    "type": "抗感染类药物",
+    "unit": "盒"
+  },
+  {
+    "name": "头孢羟氨苄甲氧苄啶胶囊",
+    "tradename": "抗克",
+    "standard": "0.15g*12粒/盒",
+    "type": "抗感染类药物",
+    "unit": "盒"
+  },
+  {
+    "name": "头孢羟氨苄胶囊",
+    "tradename": "再迪",
+    "standard": "0.25g*12粒/盒",
+    "type": "抗感染类药物",
+    "unit": "盒"
+  },
+  {
+    "name": "托西酸舒他西林胶囊",
+    "tradename": "博德",
+    "standard": "0.125g*10粒/盒",
+    "type": "抗感染类药物",
+    "unit": "盒"
+  },
+  {
+    "name": "西索米星氯化钠注射液",
+    "tradename": "亚邦利尔",
+    "standard": "0.1g:100ml/瓶",
+    "type": "抗感染类药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "盐酸克林霉素氯化钠注射液",
+    "tradename": "天全维康",
+    "standard": "0.3g:100ml/瓶",
+    "type": "抗感染类药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "盐酸克林霉素注射液",
+    "tradename": "力弘",
+    "standard": "2ml:600mg/支",
+    "type": "抗感染类药物",
+    "unit": "支"
+  },
+  {
+    "name": "盐酸芦氟沙星胶囊",
+    "tradename": "奥孚",
+    "standard": "0.1g*6粒/盒",
+    "type": "抗感染类药物",
+    "unit": "盒"
+  },
+  {
+    "name": "盐酸米诺环素胶囊",
+    "tradename": "美满",
+    "standard": "50mg*20粒/盒",
+    "type": "抗感染类药物",
+    "unit": "盒"
+  },
+  {
+    "name": "盐酸莫西沙星氯化钠注射液",
+    "tradename": "拜复乐针",
+    "standard": "0.4g:250ml*1瓶/瓶",
+    "type": "抗感染类药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "注射用美洛西林钠",
+    "tradename": "诺塞林",
+    "standard": "2g/瓶",
+    "type": "抗感染类药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "注射用门冬氨酸阿奇霉素",
+    "tradename": "博抗",
+    "standard": "0.25g/瓶",
+    "type": "抗感染类药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "注射用门冬氨酸洛美沙星",
+    "tradename": "星洛",
+    "standard": "0.2g/瓶",
+    "type": "抗感染类药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "注射用哌拉西林",
+    "tradename": "氧哌嗪青霉素",
+    "standard": "2g/瓶",
+    "type": "抗感染类药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "注射用哌拉西林他唑巴坦钠",
+    "tradename": "海他欣",
+    "standard": "2.25g/瓶",
+    "type": "抗感染类药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "注射用哌拉西林他唑巴坦钠",
+    "tradename": "凯伦",
+    "standard": "1.125g/瓶",
+    "type": "抗感染类药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "注射用替考拉宁",
+    "tradename": "他格适",
+    "standard": "0.2g/瓶",
+    "type": "抗感染类药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "注射用头孢呋辛钠",
+    "tradename": "达力新",
+    "standard": "1.5g/瓶",
+    "type": "抗感染类药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "注射用头孢呋辛钠",
+    "tradename": "嘉诺欣",
+    "standard": "1.5g/瓶",
+    "type": "抗感染类药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "注射用头孢呋辛钠",
+    "tradename": "凯蒂欣",
+    "standard": "1.5g/瓶",
+    "type": "抗感染类药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "注射用头孢呋辛钠",
+    "tradename": "伏乐新",
+    "standard": "0.75g/瓶",
+    "type": "抗感染类药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "注射用头孢呋辛钠",
+    "tradename": "丽扶欣",
+    "standard": "2.25g/瓶",
+    "type": "抗感染类药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "注射用头孢硫眯",
+    "tradename": "仙力素",
+    "standard": "0.5g/瓶",
+    "type": "抗感染类药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "注射用头孢米诺钠",
+    "tradename": "立健诺",
+    "standard": "1g/瓶",
+    "type": "抗感染类药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "注射用头孢哌酮钠舒巴坦钠",
+    "tradename": "二叶仙",
+    "standard": "1g/瓶",
+    "type": "抗感染类药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "注射用头孢哌酮钠舒巴坦钠",
+    "tradename": "优普同",
+    "standard": "2g/瓶",
+    "type": "抗感染类药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "注射用头孢哌酮钠舒巴坦钠",
+    "tradename": "可倍",
+    "standard": "2g/瓶",
+    "type": "抗感染类药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "注射用头孢哌酮钠舒巴坦钠",
+    "tradename": "欣妥治",
+    "standard": "2g/瓶",
+    "type": "抗感染类药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "注射用头孢哌酮钠舒巴坦钠",
+    "tradename": "舒普深",
+    "standard": "1g/瓶",
+    "type": "抗感染类药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "注射用头孢哌酮钠舒巴坦钠",
+    "tradename": "汕鮀宁",
+    "standard": "2g/瓶",
+    "type": "抗感染类药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "注射用头孢哌酮钠舒巴坦钠",
+    "tradename": "凯舒特",
+    "standard": "1g/瓶",
+    "type": "抗感染类药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "注射用头孢匹胺钠",
+    "tradename": "泰力信",
+    "standard": "0.5g/瓶",
+    "type": "抗感染类药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "注射用头孢匹胺钠",
+    "tradename": "罗航",
+    "standard": "0.5g/瓶",
+    "type": "抗感染类药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "注射用头孢匹胺钠",
+    "tradename": "爱民欣",
+    "standard": "1g/瓶",
+    "type": "抗感染类药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "注射用头孢曲松钠",
+    "tradename": "罗氏芬",
+    "standard": "1g/瓶",
+    "type": "抗感染类药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "注射用头孢曲松钠",
+    "tradename": "二叶嗪",
+    "standard": "2g/瓶",
+    "type": "抗感染类药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "注射用头孢曲松钠",
+    "tradename": "泛生舒复",
+    "standard": "1g/瓶",
+    "type": "抗感染类药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "注射用头孢他啶",
+    "tradename": "凯复定",
+    "standard": "1g/瓶",
+    "type": "抗感染类药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "注射用头孢他啶",
+    "tradename": "泰得欣",
+    "standard": "1g/瓶",
+    "type": "抗感染类药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "注射用头孢他啶",
+    "tradename": "晨克",
+    "standard": "1g/瓶",
+    "type": "抗感染类药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "注射用头孢他啶",
+    "tradename": "罗抗",
+    "standard": "0.5g/瓶",
+    "type": "抗感染类药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "注射用头孢他啶",
+    "tradename": "复达欣",
+    "standard": "1g/瓶",
+    "type": "抗感染类药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "注射用头孢替唑钠",
+    "tradename": "特子社复",
+    "standard": "1g/瓶",
+    "type": "抗感染类药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "注射用头孢唑肟钠",
+    "tradename": "达力净",
+    "standard": "1g/瓶",
+    "type": "抗感染类药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "注射用五水头孢唑林钠",
+    "tradename": "螯合新泰林",
+    "standard": "1g/瓶",
+    "type": "抗感染类药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "注射用亚胺培南西司他丁钠",
+    "tradename": "泰能",
+    "standard": "1g/瓶",
+    "type": "抗感染类药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "盐酸莫西沙星片",
+    "tradename": "拜复乐片",
+    "standard": "0.4g*3片/盒",
+    "type": "抗感染类药物",
+    "unit": "盒"
+  },
+  {
+    "name": "盐酸头孢他美酯胶囊",
+    "tradename": "安素美",
+    "standard": "0.125g*8粒/盒",
+    "type": "抗感染类药物",
+    "unit": "盒"
+  },
+  {
+    "name": "盐酸左氧氟沙星氯化钠注射液",
+    "tradename": "优普罗康",
+    "standard": "0.2g:100ml/瓶",
+    "type": "抗感染类药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "盐酸左氧氟沙星氯化钠注射液",
+    "tradename": "瑞科沙",
+    "standard": "0.2g:200ml/瓶",
+    "type": "抗感染类药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "盐酸左氧氟沙星片",
+    "tradename": "乐朗",
+    "standard": "0.1g*10片/盒",
+    "type": "抗感染类药物",
+    "unit": "盒"
+  },
+  {
+    "name": "盐酸左氧氟沙星片",
+    "tradename": "可乐必妥片",
+    "standard": "0.1g*10片/盒",
+    "type": "抗感染类药物",
+    "unit": "盒"
+  },
+  {
+    "name": "注射用盐酸大观霉素",
+    "tradename": "曲必星",
+    "standard": "2g/瓶",
+    "type": "抗感染类药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "注射用盐酸头孢吡肟",
+    "tradename": "信力威",
+    "standard": "0.5g/瓶",
+    "type": "抗感染类药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "注射用盐酸头孢吡肟",
+    "tradename": "博帅",
+    "standard": "1g/瓶",
+    "type": "抗感染类药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "注射用盐酸头孢吡肟",
+    "tradename": "马斯平",
+    "standard": "0.5g/瓶",
+    "type": "抗感染类药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "注射用盐酸万古霉素",
+    "tradename": "稳可信",
+    "standard": "0.5g/瓶",
+    "type": "抗感染类药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "注射用盐酸万古霉素",
+    "tradename": "来可信",
+    "standard": "0.5g/瓶",
+    "type": "抗感染类药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "阿德福韦酯片",
+    "tradename": "贺维力",
+    "standard": "10mg*14片/瓶",
+    "type": "消化系统药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "奥美拉唑肠溶胶囊",
+    "tradename": "洛赛克胶囊",
+    "standard": "20mg*14粒/瓶",
+    "type": "消化系统药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "奥美拉唑肠溶胶囊",
+    "tradename": "奥克胶囊",
+    "standard": "20mg*14粒/盒",
+    "type": "消化系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "奥曲肽注射液",
+    "tradename": "善宁",
+    "standard": "0.1mg:1ml*5支/盒",
+    "type": "消化系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "醋酸奥曲肽注射液",
+    "tradename": "启文",
+    "standard": "100ug/支",
+    "type": "消化系统药物",
+    "unit": "支"
+  },
+  {
+    "name": "地依芽孢杆菌",
+    "tradename": "整肠生",
+    "standard": "250mg*20粒/瓶",
+    "type": "消化系统药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "丁溴酸东莨菪碱注射液",
+    "tradename": "解痉灵",
+    "standard": "20mg:1ml*2支/盒",
+    "type": "消化系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "多潘立酮片",
+    "tradename": "吗丁啉",
+    "standard": "10mg*42片/盒",
+    "type": "消化系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "多烯磷脂酰胆碱胶囊",
+    "tradename": "易善复",
+    "standard": "0.228g*24粒/盒",
+    "type": "消化系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "多烯磷脂酰胆碱注射液",
+    "tradename": "易善复",
+    "standard": "232.5mg/支",
+    "type": "消化系统药物",
+    "unit": "支"
+  },
+  {
+    "name": "二磺酸腺苷蛋氨酸ZB",
+    "tradename": "思美泰",
+    "standard": "500mg*5支",
+    "type": "消化系统药物",
+    "unit": "支"
+  },
+  {
+    "name": "法莫替丁注射液",
+    "tradename": "信法丁针",
+    "standard": "20mg*2支/盒",
+    "type": "消化系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "酚酞片",
+    "tradename": "果导",
+    "standard": "0.1g*100片/瓶",
+    "type": "消化系统药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "复方地芬诺酯片",
+    "tradename": "复方苯乙哌啶",
+    "standard": "1片*100片/瓶",
+    "type": "消化系统药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "复方甘草酸单铵注射液",
+    "tradename": "莱恩维苏",
+    "standard": "20ml*5支/盒",
+    "type": "消化系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "复方聚乙二醇电解质散",
+    "tradename": "恒康正清",
+    "standard": "3袋/盒",
+    "type": "消化系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "复方庆大霉素普鲁卡因颗粒",
+    "tradename": "神怡维克",
+    "standard": "18袋/盒",
+    "type": "消化系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "复方维U颠茄铝镁片",
+    "tradename": "复方胃友",
+    "standard": "1片*50片/盒",
+    "type": "消化系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "复合乳酸菌",
+    "tradename": "聚克",
+    "standard": "0.33g*12粒/盒",
+    "type": "消化系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "复合消化酶胶囊",
+    "tradename": "达吉",
+    "standard": "1粒*20粒/盒",
+    "type": "消化系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "甘草酸二铵胶囊",
+    "tradename": "甘利欣胶囊",
+    "standard": "50mg*24粒/盒",
+    "type": "消化系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "甘草酸二铵注射液",
+    "tradename": "甘利欣针",
+    "standard": "50mg:10ml*5支/盒",
+    "type": "消化系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "枸橼酸铋钾颗粒剂",
+    "tradename": "得乐冲剂",
+    "standard": "110mg*56袋/盒",
+    "type": "消化系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "枸橼酸铋雷尼替丁胶囊",
+    "tradename": "瑞倍",
+    "standard": "0.35g*6粒/盒",
+    "type": "消化系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "甲氧氯普胺片",
+    "tradename": "胃复安片",
+    "standard": "5mg*100片/瓶",
+    "type": "消化系统药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "假密环菌甲素片",
+    "tradename": "亮菌甲素",
+    "standard": "5mg*50片/瓶",
+    "type": "消化系统药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "聚乙二醇4000散剂",
+    "tradename": "福松",
+    "standard": "10g*10袋/盒",
+    "type": "消化系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "苦参素葡萄糖注射液",
+    "tradename": "天晴复欣",
+    "standard": "100ml/瓶",
+    "type": "消化系统药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "拉米夫定片",
+    "tradename": "贺普丁",
+    "standard": "100mg*14片/盒",
+    "type": "消化系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "雷贝拉唑钠肠溶片",
+    "tradename": "安斯菲",
+    "standard": "20mg*7片/盒",
+    "type": "消化系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "雷贝拉唑钠肠溶片",
+    "tradename": "信卫安",
+    "standard": "10mg*7片/盒",
+    "type": "消化系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "雷贝拉唑钠肠溶片",
+    "tradename": "济诺",
+    "standard": "10mg*6粒/盒",
+    "type": "消化系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "门冬氨酸钾镁注射液",
+    "tradename": "潘南金",
+    "standard": "10ml*5支/盒",
+    "type": "消化系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "蒙脱石散",
+    "tradename": "必奇",
+    "standard": "3g*10袋/盒",
+    "type": "消化系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "莫沙必利片",
+    "tradename": "快力",
+    "standard": "5mg*24片/盒",
+    "type": "消化系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "泮托拉唑钠肠溶胶囊",
+    "tradename": "健朗晨",
+    "standard": "40mg*7粒/盒",
+    "type": "消化系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "匹维溴铵片",
+    "tradename": "得舒特",
+    "standard": "50mg*15片/盒",
+    "type": "消化系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "葡醛内酯片",
+    "tradename": "肝泰乐片",
+    "standard": "100mg*100片/盒",
+    "type": "消化系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "庆大霉素缓释片",
+    "tradename": "瑞贝克",
+    "standard": "40mg*16片/盒",
+    "type": "消化系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "乳果糖口服溶液",
+    "tradename": "杜秘克",
+    "standard": "15ml*6袋/盒",
+    "type": "消化系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "双歧三联活菌胶囊（肠溶）",
+    "tradename": "贝飞达",
+    "standard": "210mg*12粒/盒",
+    "type": "消化系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "双歧三联活菌胶囊（肠溶）",
+    "tradename": "培菲康",
+    "standard": "210mg*24粒/瓶",
+    "type": "消化系统药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "碳酸氢钠片",
+    "tradename": "苏打片",
+    "standard": "0.5g*1000片/瓶",
+    "type": "消化系统药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "替比夫定片",
+    "tradename": "素比伏",
+    "standard": "600mg*7片/盒",
+    "type": "消化系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "替普瑞酮胶囊",
+    "tradename": "施维舒",
+    "standard": "50mg*20粒/盒",
+    "type": "消化系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "托尼奈酸片",
+    "tradename": "加诺",
+    "standard": "1片*20片/盒",
+    "type": "消化系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "西咪替丁片",
+    "tradename": "泰胃美片",
+    "standard": "0.8g*10片/盒",
+    "type": "消化系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "消旋山莨菪碱片",
+    "tradename": "654-2",
+    "standard": "10mg*100片/盒",
+    "type": "消化系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "熊去氧胆酸胶囊",
+    "tradename": "优思弗",
+    "standard": "250mg*25粒/盒",
+    "type": "消化系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "盐酸昂丹司琼注射液",
+    "tradename": "枢丹",
+    "standard": "4mg*6支/盒",
+    "type": "消化系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "盐酸昂丹司琼注射液",
+    "tradename": "枢复宁",
+    "standard": "8mg*5支/盒",
+    "type": "消化系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "盐酸格拉司琼氯化钠注射液",
+    "tradename": "中宝伊格",
+    "standard": "3mg:100ml/瓶",
+    "type": "消化系统药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "盐酸格拉司琼葡萄糖注射液",
+    "tradename": "天泉康欣",
+    "standard": "3mg:100ml/瓶",
+    "type": "消化系统药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "盐酸格拉司琼注射液",
+    "tradename": "雷赛隆",
+    "standard": "3mg:3ml/支",
+    "type": "消化系统药物",
+    "unit": "支"
+  },
+  {
+    "name": "盐酸甲氧氯普胺注射液",
+    "tradename": "胃复安",
+    "standard": "10mg*10支/盒",
+    "type": "消化系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "盐酸洛哌丁胺胶囊",
+    "tradename": "易蒙停",
+    "standard": "2mg*6粒/盒",
+    "type": "消化系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "盐酸托烷司琼注射液",
+    "tradename": "欧必亭",
+    "standard": "5mg:5ml/支",
+    "type": "消化系统药物",
+    "unit": "支"
+  },
+  {
+    "name": "盐酸托烷司琼注射液",
+    "tradename": "赛格恩",
+    "standard": "5mg:5ml/支",
+    "type": "消化系统药物",
+    "unit": "支"
+  },
+  {
+    "name": "胰酶胶囊",
+    "tradename": "得每通",
+    "standard": "150mg*20粒/盒",
+    "type": "消化系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "注射用奥美拉唑钠",
+    "tradename": "洛赛克针",
+    "standard": "40mg/瓶",
+    "type": "消化系统药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "注射用奥美拉唑钠",
+    "tradename": "奥克针",
+    "standard": "40mg/瓶",
+    "type": "消化系统药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "注射用奥美拉唑钠",
+    "tradename": "奥西康",
+    "standard": "42.6mg/瓶",
+    "type": "消化系统药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "磷酸铝凝胶",
+    "tradename": "洁维乐凝胶",
+    "standard": "20g*4袋/盒",
+    "type": "消化系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "硫普罗宁片",
+    "tradename": "凯西莱片",
+    "standard": "0.1g*12片/盒",
+    "type": "消化系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "马来酸曲美布汀片",
+    "tradename": "援生力维",
+    "standard": "0.1g*12片/盒",
+    "type": "消化系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "马来酸替加色罗片",
+    "tradename": "泽马可",
+    "standard": "6mg*10片/盒",
+    "type": "消化系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "马来酸伊索拉定片",
+    "tradename": "科玛诺",
+    "standard": "2mg*12片/盒",
+    "type": "消化系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "美沙拉秦缓释颗粒剂",
+    "tradename": "艾迪沙",
+    "standard": "500mg*10袋/盒",
+    "type": "消化系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "注射用还原型谷胱甘肽",
+    "tradename": "古拉定",
+    "standard": "600mg/瓶",
+    "type": "消化系统药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "注射用还原型谷胱甘肽",
+    "tradename": "绿汀诺",
+    "standard": "300mg/瓶",
+    "type": "消化系统药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "注射用甲磺酸加贝酯",
+    "tradename": "加贝酯",
+    "standard": "0.1g/瓶",
+    "type": "消化系统药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "注射用硫普罗宁",
+    "tradename": "凯西莱针",
+    "standard": "0.1g*6瓶/盒",
+    "type": "消化系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "注射用泮托拉唑钠",
+    "tradename": "富诗坦",
+    "standard": "40mg/瓶",
+    "type": "消化系统药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "注射用泮托拉唑钠",
+    "tradename": "诺森",
+    "standard": "60mg*2瓶/盒",
+    "type": "消化系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "注射用泮托拉唑钠",
+    "tradename": "韦迪",
+    "standard": "40mg/瓶",
+    "type": "消化系统药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "注射用生长抑素",
+    "tradename": "丽枝雪",
+    "standard": "3mg/瓶",
+    "type": "消化系统药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "丙酸倍氯米松鼻气雾剂",
+    "tradename": "伯克纳气雾剂",
+    "standard": "50ug*200喷/瓶",
+    "type": "呼吸系统药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "丙酸氟替卡松鼻喷雾剂",
+    "tradename": "辅舒良鼻喷雾剂",
+    "standard": "50ug*120喷/瓶",
+    "type": "呼吸系统药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "薄荷桉油含片",
+    "tradename": "四季润喉片",
+    "standard": "1片*20片/支",
+    "type": "呼吸系统药物",
+    "unit": "支"
+  },
+  {
+    "name": "布地奈德粉吸入剂",
+    "tradename": "普米克都保",
+    "standard": "0.1mg*200吸/支",
+    "type": "呼吸系统药物",
+    "unit": "支"
+  },
+  {
+    "name": "布地奈德气雾剂",
+    "tradename": "普米克气雾剂",
+    "standard": "200ug*100喷/瓶",
+    "type": "呼吸系统药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "布地奈德气雾剂",
+    "tradename": "吉舒",
+    "standard": "20mg:200喷/瓶",
+    "type": "呼吸系统药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "吸入用布地奈馄悬液",
+    "tradename": "普米克令舒",
+    "standard": "1mg:2ml*5支/盒",
+    "type": "呼吸系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "地喹氯铵含片",
+    "tradename": "泰乐其口含片",
+    "standard": "2.5mg*12片/盒",
+    "type": "呼吸系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "多索茶碱片",
+    "tradename": "新茜平",
+    "standard": "0.2g*12片/盒",
+    "type": "呼吸系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "二羟丙茶碱注射液",
+    "tradename": "喘定",
+    "standard": "0.25g:2ml*10支/盒",
+    "type": "呼吸系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "复方可待因口服溶液",
+    "tradename": "泰洛其",
+    "standard": "120ml/瓶",
+    "type": "呼吸系统药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "复方锌布颗粒剂",
+    "tradename": "臣功再欣",
+    "standard": "12袋/盒",
+    "type": "呼吸系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "复方愈创木酚磺酸钾口服溶液",
+    "tradename": "非那根",
+    "standard": "100ml瓶",
+    "type": "呼吸系统药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "枸橼酸维静宁",
+    "tradename": "咳必清片",
+    "standard": "25mg*100片/瓶",
+    "type": "呼吸系统药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "硫酸沙丁胺醇片",
+    "tradename": "舒喘灵",
+    "standard": "2.4mg*100片/瓶",
+    "type": "呼吸系统药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "硫酸沙丁胺醇溶液",
+    "tradename": "万托林",
+    "standard": "100mg:20ml/瓶",
+    "type": "呼吸系统药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "硫酸特布他林片",
+    "tradename": "博利康尼片",
+    "standard": "2.5mg*20片/板",
+    "type": "呼吸系统药物",
+    "unit": "板"
+  },
+  {
+    "name": "硫酸特布他林气雾剂",
+    "tradename": "喘康速气雾剂",
+    "standard": "0.25mg*400喷/瓶",
+    "type": "呼吸系统药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "孟鲁司特钠片",
+    "tradename": "顺尔宁",
+    "standard": "10mg*5片/盒",
+    "type": "呼吸系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "噻托溴铵粉吸入剂",
+    "tradename": "思力华",
+    "standard": "18ug/盒",
+    "type": "呼吸系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "沙美特罗替卡松粉吸入剂",
+    "tradename": "舒利迭",
+    "standard": "50ug:250ug:60吸/盒",
+    "type": "呼吸系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "沙美特罗替卡松粉吸入剂",
+    "tradename": "舒利迭入",
+    "standard": "50ug:100ug:60吸/盒",
+    "type": "呼吸系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "双氯芬酸钾喷雾剂",
+    "tradename": "吉松",
+    "standard": "180喷*20ml:0.2g/瓶",
+    "type": "呼吸系统药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "细辛脑片",
+    "tradename": "停克",
+    "standard": "30mg*24片/盒",
+    "type": "呼吸系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "盐酸氨溴索氯化钠注射液",
+    "tradename": "维可莱",
+    "standard": "30mg:100ml/瓶",
+    "type": "呼吸系统药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "盐酸氨溴索片",
+    "tradename": "兰苏片",
+    "standard": "30mg*20片/盒",
+    "type": "呼吸系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "盐酸氨溴索片",
+    "tradename": "沐舒坦片",
+    "standard": "30mg*50片/盒",
+    "type": "呼吸系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "盐酸氨溴索葡萄糖注射液",
+    "tradename": "菲得欣",
+    "standard": "30mg:50ml/瓶",
+    "type": "呼吸系统药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "盐酸氨溴索注射液",
+    "tradename": "沐舒坦针",
+    "standard": "15mg:2ml*5支/盒",
+    "type": "呼吸系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "盐酸班布特罗片",
+    "tradename": "帮备",
+    "standard": "10mg*10片/盒",
+    "type": "呼吸系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "盐酸溴已新片",
+    "tradename": "必嗽平",
+    "standard": "8mg*100片/瓶",
+    "type": "呼吸系统药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "乙酰半胱氨酸颗粒",
+    "tradename": "富露施颗粒",
+    "standard": "0.2g*10袋/盒",
+    "type": "呼吸系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "乙酰半胱氨酸泡腾片",
+    "tradename": "富露施泡腾片",
+    "standard": "600mg*4片/盒",
+    "type": "呼吸系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "吸入用异丙托溴铵溶液",
+    "tradename": "爱全乐吸入液",
+    "standard": "250ug:2ml*10支/盒",
+    "type": "呼吸系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "愈美颗粒剂",
+    "tradename": "华芬",
+    "standard": "0.115g:12袋/盒",
+    "type": "呼吸系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "注射用盐酸氨溴索",
+    "tradename": "兰苏针",
+    "standard": "30mg*2瓶/盒",
+    "type": "呼吸系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "硫酸特布他林雾化液",
+    "tradename": "博利康尼雾化液",
+    "standard": "5mg*20支/盒",
+    "type": "呼吸系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "奥氮平片",
+    "tradename": "再普乐",
+    "standard": "5mg*28片/盒",
+    "type": "神经系统药",
+    "unit": "盒"
+  },
+  {
+    "name": "贝美格注射液",
+    "tradename": "美解眠",
+    "standard": "20ml:50mg*2支/盒",
+    "type": "神经系统药",
+    "unit": "盒"
+  },
+  {
+    "name": "纳洛酮注射液",
+    "tradename": "金尔伦",
+    "standard": "0.4mg*4支/盒",
+    "type": "神经系统药",
+    "unit": "盒"
+  },
+  {
+    "name": "脑蛋白水解物注射液",
+    "tradename": "尤尼泰",
+    "standard": "2ml*6支/盒",
+    "type": "神经系统药",
+    "unit": "盒"
+  },
+  {
+    "name": "吡拉西坦片",
+    "tradename": "脑复康",
+    "standard": "0.4g*100片/瓶",
+    "type": "神经系统药",
+    "unit": "瓶"
+  },
+  {
+    "name": "丙戊酸钠缓释片",
+    "tradename": "德巴金片",
+    "standard": "500mg*30片/盒",
+    "type": "神经系统药",
+    "unit": "盒"
+  },
+  {
+    "name": "单唾液酸四己糖神经节注射液",
+    "tradename": "施捷因",
+    "standard": "20mg*5支/盒",
+    "type": "神经系统药",
+    "unit": "盒"
+  },
+  {
+    "name": "单唾液酸四己糖神经节注射液",
+    "tradename": "申捷",
+    "standard": "20mg:2ml/支",
+    "type": "神经系统药",
+    "unit": "支"
+  },
+  {
+    "name": "多巴丝肼片",
+    "tradename": "美多巴",
+    "standard": "0.25g*40片/盒",
+    "type": "神经系统药",
+    "unit": "盒"
+  },
+  {
+    "name": "氟吗西尼注射液",
+    "tradename": "莱意",
+    "standard": "0.5mg*6支/盒",
+    "type": "神经系统药",
+    "unit": "盒"
+  },
+  {
+    "name": "氟哌噻吨美利曲辛片",
+    "tradename": "黛力新",
+    "standard": "0.5mg:10mg*20片/盒",
+    "type": "神经系统药",
+    "unit": "盒"
+  },
+  {
+    "name": "复方阿米三嗪",
+    "tradename": "福里衡",
+    "standard": "1片*14片/盒",
+    "type": "神经系统药",
+    "unit": "盒"
+  },
+  {
+    "name": "复方吡拉西坦脑蛋白水解物片",
+    "tradename": "康脑灵片",
+    "standard": "1片*27片/盒",
+    "type": "神经系统药",
+    "unit": "盒"
+  },
+  {
+    "name": "甲磺酸阿米三嗪萝巴新片",
+    "tradename": "都可喜",
+    "standard": "1片*30片/瓶",
+    "type": "神经系统药",
+    "unit": "瓶"
+  },
+  {
+    "name": "甲硫酸新斯的明注射液",
+    "tradename": "新斯的明针",
+    "standard": "1mg*10支/盒",
+    "type": "神经系统药",
+    "unit": "盒"
+  },
+  {
+    "name": "卡马西平",
+    "tradename": "得理多",
+    "standard": "0.2g*30片/瓶",
+    "type": "神经系统药",
+    "unit": "瓶"
+  },
+  {
+    "name": "氯丙嗪异丙嗪注射液",
+    "tradename": "复方冬眠灵",
+    "standard": "2ml*10支/盒",
+    "type": "神经系统药",
+    "unit": "盒"
+  },
+  {
+    "name": "脑苷肌肽注射液",
+    "tradename": "凯洛欣",
+    "standard": "2ml*6支/盒",
+    "type": "神经系统药",
+    "unit": "盒"
+  },
+  {
+    "name": "尼可刹米注射液",
+    "tradename": "可拉明",
+    "standard": "0.375g*10支/盒",
+    "type": "神经系统药",
+    "unit": "盒"
+  },
+  {
+    "name": "氢溴酸加兰他敏注射液",
+    "tradename": "加兰他敏",
+    "standard": "1mg*10支/盒",
+    "type": "神经系统药",
+    "unit": "盒"
+  },
+  {
+    "name": "盐酸苯海索片",
+    "tradename": "安坦",
+    "standard": "2mg*100片/瓶",
+    "type": "神经系统药",
+    "unit": "瓶"
+  },
+  {
+    "name": "盐酸多奈哌齐片（薄膜衣）",
+    "tradename": "安理申",
+    "standard": "5mg*7片/盒",
+    "type": "神经系统药",
+    "unit": "盒"
+  },
+  {
+    "name": "盐酸氟西汀胶囊",
+    "tradename": "百优解",
+    "standard": "20mg*7粒/盒",
+    "type": "神经系统药",
+    "unit": "盒"
+  },
+  {
+    "name": "盐酸硫必利片",
+    "tradename": "泰必利",
+    "standard": "0.1g*100片/瓶",
+    "type": "神经系统药",
+    "unit": "瓶"
+  },
+  {
+    "name": "盐酸帕罗西汀片",
+    "tradename": "赛乐特",
+    "standard": "20mg*10片/盒",
+    "type": "神经系统药",
+    "unit": "盒"
+  },
+  {
+    "name": "盐酸曲唑酮片",
+    "tradename": "美抒玉",
+    "standard": "50mg*20片/盒",
+    "type": "神经系统药",
+    "unit": "盒"
+  },
+  {
+    "name": "盐酸乙哌立松片",
+    "tradename": "妙纳片",
+    "standard": "50mg*20片/盒",
+    "type": "神经系统药",
+    "unit": "盒"
+  },
+  {
+    "name": "依达拉奉注射液",
+    "tradename": "必存",
+    "standard": "10mg:5ml/支",
+    "type": "神经系统药",
+    "unit": "支"
+  },
+  {
+    "name": "乙酰谷酰胺注射液",
+    "tradename": "依龙",
+    "standard": "0.25g*2支/盒",
+    "type": "神经系统药",
+    "unit": "盒"
+  },
+  {
+    "name": "注射用盐酸戊乙奎醚",
+    "tradename": "长托宁",
+    "standard": "1mg*6瓶/盒",
+    "type": "神经系统药",
+    "unit": "盒"
+  },
+  {
+    "name": "艾司唑仑片",
+    "tradename": "舒乐安定",
+    "standard": "1mg*20片/盒",
+    "type": "精神及麻醉药",
+    "unit": "盒"
+  },
+  {
+    "name": "苯巴比妥片",
+    "tradename": "鲁米那",
+    "standard": "30mg*100片/瓶",
+    "type": "精神及麻醉药",
+    "unit": "瓶"
+  },
+  {
+    "name": "注射用苯巴比妥",
+    "tradename": "鲁米那",
+    "standard": "0.1g/瓶",
+    "type": "精神及麻醉药",
+    "unit": "瓶"
+  },
+  {
+    "name": "地西泮注射液",
+    "tradename": "安定针",
+    "standard": "10mg:2ml*10支/盒",
+    "type": "精神及麻醉药",
+    "unit": "盒"
+  },
+  {
+    "name": "丁丙诺啡注射液",
+    "tradename": "沙菲针",
+    "standard": "0.3mg:1ml*10支/盒",
+    "type": "精神及麻醉药",
+    "unit": "盒"
+  },
+  {
+    "name": "芬太尼透皮贴剂",
+    "tradename": "多瑞吉",
+    "standard": "2.5mg*5贴/盒",
+    "type": "精神及麻醉药",
+    "unit": "盒"
+  },
+  {
+    "name": "酒石酸唑吡坦片",
+    "tradename": "思诺思",
+    "standard": "10mg*7片/盒",
+    "type": "精神及麻醉药",
+    "unit": "盒"
+  },
+  {
+    "name": "咪达唑仑注射液",
+    "tradename": "力月西针",
+    "standard": "10mg:2ml*5支/盒",
+    "type": "精神及麻醉药",
+    "unit": "盒"
+  },
+  {
+    "name": "三唑仑片",
+    "tradename": "酣乐欣",
+    "standard": "0.25mg*50片/瓶",
+    "type": "精神及麻醉药",
+    "unit": "瓶"
+  },
+  {
+    "name": "硝基安定片",
+    "tradename": "硝西泮",
+    "standard": "5mg*100片/瓶",
+    "type": "精神及麻醉药",
+    "unit": "瓶"
+  },
+  {
+    "name": "盐酸布桂嗪注射液",
+    "tradename": "强痛定针",
+    "standard": "0.1g:2ml*10支/盒",
+    "type": "精神及麻醉药",
+    "unit": "盒"
+  },
+  {
+    "name": "盐酸吗啡控释片",
+    "tradename": "美施康定",
+    "standard": "30mg*10片/盒",
+    "type": "精神及麻醉药",
+    "unit": "盒"
+  },
+  {
+    "name": "注射用盐酸哌甲酯",
+    "tradename": "利他林",
+    "standard": "20mg/瓶",
+    "type": "精神及麻醉药",
+    "unit": "瓶"
+  },
+  {
+    "name": "盐酸哌替啶注射液",
+    "tradename": "杜冷丁",
+    "standard": "2ml:100mg*10支/盒",
+    "type": "精神及麻醉药",
+    "unit": "盒"
+  },
+  {
+    "name": "盐酸羟考酮控释片",
+    "tradename": "奥施康定片",
+    "standard": "10mg*10片/盒",
+    "type": "精神及麻醉药",
+    "unit": "盒"
+  },
+  {
+    "name": "阿司匹林泡腾片",
+    "tradename": "巴米尔",
+    "standard": "0.5g*10片/盒",
+    "type": "解热、镇痛、抗炎、抗痛风药物",
+    "unit": "盒"
+  },
+  {
+    "name": "苯溴马隆片",
+    "tradename": "立加利仙",
+    "standard": "50mg*10片/盒",
+    "type": "解热、镇痛、抗炎、抗痛风药物",
+    "unit": "盒"
+  },
+  {
+    "name": "布洛芬缓释胶囊",
+    "tradename": "芬必得",
+    "standard": "0.3g*20粒/盒",
+    "type": "解热、镇痛、抗炎、抗痛风药物",
+    "unit": "盒"
+  },
+  {
+    "name": "对乙酰氨基酚混悬滴剂",
+    "tradename": "泰诺林",
+    "standard": "15ml/瓶",
+    "type": "解热、镇痛、抗炎、抗痛风药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "对乙酰氨基酚片",
+    "tradename": "必理通",
+    "standard": "0.5g*10片/盒",
+    "type": "解热、镇痛、抗炎、抗痛风药物",
+    "unit": "盒"
+  },
+  {
+    "name": "氟比洛芬酯注射液",
+    "tradename": "凯纷",
+    "standard": "50mg:5ml/支",
+    "type": "解热、镇痛、抗炎、抗痛风药物",
+    "unit": "支"
+  },
+  {
+    "name": "复方氨林巴比妥注射液",
+    "tradename": "复亚",
+    "standard": "2ml*10支/盒",
+    "type": "解热、镇痛、抗炎、抗痛风药物",
+    "unit": "盒"
+  },
+  {
+    "name": "复方丙氧氨酚片",
+    "tradename": "达宁片",
+    "standard": "1片*20片/盒",
+    "type": "解热、镇痛、抗炎、抗痛风药物",
+    "unit": "盒"
+  },
+  {
+    "name": "复方骨肽注射液",
+    "tradename": "谷强",
+    "standard": "2ml/支",
+    "type": "解热、镇痛、抗炎、抗痛风药物",
+    "unit": "支"
+  },
+  {
+    "name": "复方骨肽注射液",
+    "tradename": "齐正",
+    "standard": "5ml/支",
+    "type": "解热、镇痛、抗炎、抗痛风药物",
+    "unit": "支"
+  },
+  {
+    "name": "曲马多缓释片",
+    "tradename": "奇曼丁",
+    "standard": "100mg*10片/盒",
+    "type": "解热、镇痛、抗炎、抗痛风药物",
+    "unit": "盒"
+  },
+  {
+    "name": "去痛片",
+    "tradename": "索米痛",
+    "standard": "1片*6片/板",
+    "type": "解热、镇痛、抗炎、抗痛风药物",
+    "unit": "板"
+  },
+  {
+    "name": "塞来西布片",
+    "tradename": "西乐葆",
+    "standard": "200mg*6片/盒",
+    "type": "解热、镇痛、抗炎、抗痛风药物",
+    "unit": "盒"
+  },
+  {
+    "name": "双醋瑞因胶囊",
+    "tradename": "安必丁",
+    "standard": "50mg*10粒/盒",
+    "type": "解热、镇痛、抗炎、抗痛风药物",
+    "unit": "盒"
+  },
+  {
+    "name": "双氯芬酸钠缓释胶囊",
+    "tradename": "英太青胶囊",
+    "standard": "50mg*20粒/盒",
+    "type": "解热、镇痛、抗炎、抗痛风药物",
+    "unit": "盒"
+  },
+  {
+    "name": "双氯芬酸钠缓释片",
+    "tradename": "扶他林片",
+    "standard": "75mg*10片/盒",
+    "type": "解热、镇痛、抗炎、抗痛风药物",
+    "unit": "盒"
+  },
+  {
+    "name": "双氯芬酸钠凝胶",
+    "tradename": "英太青凝胶",
+    "standard": "15g/支",
+    "type": "解热、镇痛、抗炎、抗痛风药物",
+    "unit": "支"
+  },
+  {
+    "name": "双氯芬酸二乙胺乳胶剂",
+    "tradename": "扶他林乳膏",
+    "standard": "20g/支",
+    "type": "解热、镇痛、抗炎、抗痛风药物",
+    "unit": "支"
+  },
+  {
+    "name": "四氢帕马丁片",
+    "tradename": "颅痛定片",
+    "standard": "30mg*100片/瓶",
+    "type": "解热、镇痛、抗炎、抗痛风药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "酮咯酸氨丁三醇胶囊",
+    "tradename": "尼松",
+    "standard": "10mg*24粒/盒",
+    "type": "解热、镇痛、抗炎、抗痛风药物",
+    "unit": "盒"
+  },
+  {
+    "name": "复方氯唑沙宗片",
+    "tradename": "鲁南贝特",
+    "standard": "0.125g*24片/盒",
+    "type": "解热、镇痛、抗炎、抗痛风药物",
+    "unit": "盒"
+  },
+  {
+    "name": "复方双氯灭痛片",
+    "tradename": "感冒通",
+    "standard": "1片*24片/盒",
+    "type": "解热、镇痛、抗炎、抗痛风药物",
+    "unit": "盒"
+  },
+  {
+    "name": "复方盐酸伪麻黄碱缓释胶囊",
+    "tradename": "新康泰克",
+    "standard": "1粒*10粒/盒",
+    "type": "解热、镇痛、抗炎、抗痛风药物",
+    "unit": "盒"
+  },
+  {
+    "name": "骨肽片",
+    "tradename": "谷悦",
+    "standard": "0.3g*12片/盒",
+    "type": "解热、镇痛、抗炎、抗痛风药物",
+    "unit": "盒"
+  },
+  {
+    "name": "来氟米特片",
+    "tradename": "爱若华",
+    "standard": "10mg*10片/盒",
+    "type": "解热、镇痛、抗炎、抗痛风药物",
+    "unit": "盒"
+  },
+  {
+    "name": "鹿瓜多肽注射液",
+    "tradename": "松梅乐",
+    "standard": "4mg:2ml*10支/盒",
+    "type": "解热、镇痛、抗炎、抗痛风药物",
+    "unit": "盒"
+  },
+  {
+    "name": "牛痘疫苗致炎兔皮提取物注射液",
+    "tradename": "恩再适",
+    "standard": "3ml:3.6单位/支",
+    "type": "解热、镇痛、抗炎、抗痛风药物",
+    "unit": "支"
+  },
+  {
+    "name": "氢溴酸高乌甲素注射液",
+    "tradename": "根宁",
+    "standard": "4mg:2ml/支",
+    "type": "解热、镇痛、抗炎、抗痛风药物",
+    "unit": "支"
+  },
+  {
+    "name": "酮咯酸氨丁三醇注射液",
+    "tradename": "尼松",
+    "standard": "30mg*10支/盒",
+    "type": "解热、镇痛、抗炎、抗痛风药物",
+    "unit": "盒"
+  },
+  {
+    "name": "小儿氨酚黄那敏颗粒",
+    "tradename": "小儿速效感冒颗粒",
+    "standard": "12g*10袋/盒",
+    "type": "解热、镇痛、抗炎、抗痛风药物",
+    "unit": "盒"
+  },
+  {
+    "name": "吲哚美辛肠溶片",
+    "tradename": "消炎痛片",
+    "standard": "25mg*100片/瓶",
+    "type": "解热、镇痛、抗炎、抗痛风药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "吲哚美辛栓",
+    "tradename": "消炎痛栓",
+    "standard": "100mg*10粒/盒",
+    "type": "解热、镇痛、抗炎、抗痛风药物",
+    "unit": "盒"
+  },
+  {
+    "name": "注射用苯磺酸阿曲库铵",
+    "tradename": "卡肌宁",
+    "standard": "25mg*10瓶/盒",
+    "type": "解热、镇痛、抗炎、抗痛风药物",
+    "unit": "盒"
+  },
+  {
+    "name": "注射用赖氨匹林",
+    "tradename": "阿沙吉尔",
+    "standard": "0.9g/瓶",
+    "type": "解热、镇痛、抗炎、抗痛风药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "注射用鹿瓜多肽",
+    "tradename": "绵舒",
+    "standard": "8mg/瓶",
+    "type": "解热、镇痛、抗炎、抗痛风药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "注射用氯诺昔康",
+    "tradename": "可塞风",
+    "standard": "8mg/瓶",
+    "type": "解热、镇痛、抗炎、抗痛风药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "阿司咪唑片",
+    "tradename": "息斯敏",
+    "standard": "3mg*30片/盒",
+    "type": "抗变态反应药物",
+    "unit": "盒"
+  },
+  {
+    "name": "茶苯海明片",
+    "tradename": "乘晕宁",
+    "standard": "50mg*12片/盒",
+    "type": "抗变态反应药物",
+    "unit": "盒"
+  },
+  {
+    "name": "氯雷他定片",
+    "tradename": "开瑞坦",
+    "standard": "10mg*6片/盒",
+    "type": "抗变态反应药物",
+    "unit": "盒"
+  },
+  {
+    "name": "马来酸氯苯那敏片",
+    "tradename": "扑尔敏片",
+    "standard": "4mg*100片/瓶",
+    "type": "抗变态反应药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "马来酸氯苯那敏注射液",
+    "tradename": "扑尔敏针",
+    "standard": "10mg*10支/盒",
+    "type": "抗变态反应药物",
+    "unit": "盒"
+  },
+  {
+    "name": "盐酸曲普利啶胶囊",
+    "tradename": "刻免",
+    "standard": "2.5mg*20粒/盒",
+    "type": "抗变态反应药物",
+    "unit": "盒"
+  },
+  {
+    "name": "盐酸西替利嗪片",
+    "tradename": "斯特林",
+    "standard": "10mg*10片/盒",
+    "type": "抗变态反应药物",
+    "unit": "盒"
+  },
+  {
+    "name": "盐酸西替利嗪片",
+    "tradename": "赛特赞",
+    "standard": "10mg*12片/盒",
+    "type": "抗变态反应药物",
+    "unit": "盒"
+  },
+  {
+    "name": "盐酸西替利嗪糖浆",
+    "tradename": "贝分",
+    "standard": "120ml:0.12g/瓶",
+    "type": "抗变态反应药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "盐酸左西替利嗪分散片",
+    "tradename": "诺思达",
+    "standard": "5mg*12片/盒",
+    "type": "抗变态反应药物",
+    "unit": "盒"
+  },
+  {
+    "name": "依巴斯汀片",
+    "tradename": "开思亭",
+    "standard": "10mg*10片/盒",
+    "type": "抗变态反应药物",
+    "unit": "盒"
+  },
+  {
+    "name": "丙泊酚注射液",
+    "tradename": "静安",
+    "standard": "20ml*5支/盒",
+    "type": "麻醉药及辅助麻醉药物",
+    "unit": "盒"
+  },
+  {
+    "name": "丙泊酚注射液",
+    "tradename": "迪施宁",
+    "standard": "10ml:100mg/支",
+    "type": "麻醉药及辅助麻醉药物",
+    "unit": "支"
+  },
+  {
+    "name": "恩氟烷",
+    "tradename": "易使宁",
+    "standard": "250ml/瓶",
+    "type": "麻醉药及辅助麻醉药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "氯化琥珀胆碱注射液",
+    "tradename": "司可林",
+    "standard": "0.1g*2支/盒",
+    "type": "麻醉药及辅助麻醉药物",
+    "unit": "盒"
+  },
+  {
+    "name": "异氟烷溶液",
+    "tradename": "活宁",
+    "standard": "100ml/瓶",
+    "type": "麻醉药及辅助麻醉药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "注射用哌库溴铵",
+    "tradename": "阿端针",
+    "standard": "4mg*5支/盒",
+    "type": "麻醉药及辅助麻醉药物",
+    "unit": "盒"
+  },
+  {
+    "name": "注射用盐酸罗哌卡因",
+    "tradename": "康博宁",
+    "standard": "75mg/瓶",
+    "type": "麻醉药及辅助麻醉药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "左布比卡因注射液",
+    "tradename": "速卡",
+    "standard": "37.5mg*5支/盒",
+    "type": "麻醉药及辅助麻醉药物",
+    "unit": "盒"
+  },
+  {
+    "name": "阿司匹林肠溶片",
+    "tradename": "拜阿司匹灵",
+    "standard": "100mg*30片/盒",
+    "type": "血液和造血系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "阿司匹林缓释片",
+    "tradename": "塞宁",
+    "standard": "50mg*24片/盒",
+    "type": "血液和造血系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "氨甲苯酸注射液",
+    "tradename": "止血芳酸",
+    "standard": "100mg*5支/盒",
+    "type": "血液和造血系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "氨甲环酸氯化钠注射液",
+    "tradename": "捷凝",
+    "standard": "0.5g:100ml/瓶",
+    "type": "血液和造血系统药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "氨甲环酸注射液",
+    "tradename": "速宁",
+    "standard": "0.2g*10支/盒",
+    "type": "血液和造血系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "奥扎格雷钠注射液",
+    "tradename": "晴尔",
+    "standard": "2ml:40mg*10支/盒",
+    "type": "血液和造血系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "低分子肝素钙注射液",
+    "tradename": "速碧林",
+    "standard": "0.4ml*2支/盒",
+    "type": "血液和造血系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "低分子肝素钠注射液",
+    "tradename": "克赛",
+    "standard": "4000iu*2支/盒",
+    "type": "血液和造血系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "二乙酰氨乙酸乙二胺注射液",
+    "tradename": "迅刻",
+    "standard": "0.2g:2ml/支",
+    "type": "血液和造血系统药物",
+    "unit": "支"
+  },
+  {
+    "name": "盐酸噻氯匹定片",
+    "tradename": "抵克立得",
+    "standard": "250mg*10片/盒",
+    "type": "血液和造血系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "盐酸替罗非班氯化钠注射液",
+    "tradename": "欣维宁",
+    "standard": "100ml/瓶",
+    "type": "血液和造血系统药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "盐酸小檗胺片",
+    "tradename": "升白安",
+    "standard": "28mg*48片/瓶",
+    "type": "血液和造血系统药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "右旋糖酐40葡萄糖注射液",
+    "tradename": "低右",
+    "standard": "500ml/瓶",
+    "type": "血液和造血系统药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "右旋糖酐铁注射液",
+    "tradename": "科莫非",
+    "standard": "100mg*5支/盒",
+    "type": "血液和造血系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "重组人粒细胞刺激因子注射液",
+    "tradename": "瑞白",
+    "standard": "100ug:0.6ml/支",
+    "type": "血液和造血系统药物",
+    "unit": "支"
+  },
+  {
+    "name": "重组人粒细胞集落刺激因子注射液",
+    "tradename": "吉粒芬",
+    "standard": "100ug*5支/盒",
+    "type": "血液和造血系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "重组人粒细胞集落刺激因子注射液",
+    "tradename": "立生素",
+    "standard": "200ug/支",
+    "type": "血液和造血系统药物",
+    "unit": "支"
+  },
+  {
+    "name": "重组人血小板生成素注射液",
+    "tradename": "特比澳",
+    "standard": "15000U/1ml/支",
+    "type": "血液和造血系统药物",
+    "unit": "支"
+  },
+  {
+    "name": "酚磺乙胺注射液",
+    "tradename": "止血敏",
+    "standard": "0.5g*10支/盒",
+    "type": "血液和造血系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "高渗氯化钠羟乙基淀粉40注射液",
+    "tradename": "霍姆",
+    "standard": "250ml:10.5g:19g/瓶",
+    "type": "血液和造血系统药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "琥珀酸亚铁片",
+    "tradename": "速力菲",
+    "standard": "0.1g*20片/盒",
+    "type": "血液和造血系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "利血生片",
+    "tradename": "利可君",
+    "standard": "20mg*48片/盒",
+    "type": "血液和造血系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "硫酸氢氯吡格雷片",
+    "tradename": "波立维",
+    "standard": "75mg*7片/盒",
+    "type": "血液和造血系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "羟乙基淀粉注射液",
+    "tradename": "万汶",
+    "standard": "500ml/袋",
+    "type": "血液和造血系统药物",
+    "unit": "袋"
+  },
+  {
+    "name": "双嘧达莫片",
+    "tradename": "潘生丁片",
+    "standard": "25mg*100片/瓶",
+    "type": "血液和造血系统药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "缩合葡萄糖氯化钠注射液",
+    "tradename": "靖顺",
+    "standard": "500ml/瓶",
+    "type": "血液和造血系统药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "注射用肌苷",
+    "tradename": "奇方能",
+    "standard": "0.2g/瓶",
+    "type": "血液和造血系统药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "注射用尿激酶",
+    "tradename": "尤瑞清",
+    "standard": "5万U/瓶",
+    "type": "血液和造血系统药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "注射用血凝酶",
+    "tradename": "巴曲亭",
+    "standard": "1U*5瓶/盒",
+    "type": "血液和造血系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "注射用血凝酶",
+    "tradename": "立芷雪",
+    "standard": "1KU/瓶",
+    "type": "血液和造血系统药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "重组人促红素注射液",
+    "tradename": "益比奥10",
+    "standard": "10000U/瓶",
+    "type": "血液和造血系统药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "重组人促红素注射液",
+    "tradename": "益比奥3",
+    "standard": "3000U/瓶",
+    "type": "血液和造血系统药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "注射用重组人组织纤维蛋白溶酶",
+    "tradename": "爱通立",
+    "standard": "50mg/盒",
+    "type": "血液和造血系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "阿卡波糖片",
+    "tradename": "拜唐苹",
+    "standard": "50mg*30片/盒",
+    "type": "激素类及影响内分泌药物",
+    "unit": "盒"
+  },
+  {
+    "name": "奥利司他胶囊",
+    "tradename": "赛尼可",
+    "standard": "120mg*42粒/盒",
+    "type": "激素类及影响内分泌药物",
+    "unit": "盒"
+  },
+  {
+    "name": "醋酸甲地孕酮分散片",
+    "tradename": "宜利治",
+    "standard": "160mg*10片/盒",
+    "type": "激素类及影响内分泌药物",
+    "unit": "盒"
+  },
+  {
+    "name": "醋酸甲羟孕酮片",
+    "tradename": "安宫黄体酮",
+    "standard": "2mg*100片/瓶",
+    "type": "激素类及影响内分泌药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "醋酸泼尼松龙注射液",
+    "tradename": "强的松龙",
+    "standard": "125mg/瓶",
+    "type": "激素类及影响内分泌药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "醋酸泼尼松片",
+    "tradename": "强的松",
+    "standard": "5mg*100片/盒",
+    "type": "激素类及影响内分泌药物",
+    "unit": "盒"
+  },
+  {
+    "name": "醋酸曲安萘德注射液",
+    "tradename": "确A针",
+    "standard": "50mg/瓶",
+    "type": "激素类及影响内分泌药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "复方倍他米松注射液",
+    "tradename": "得宝松针",
+    "standard": "(5:2)mg:1ml/支",
+    "type": "激素类及影响内分泌药物",
+    "unit": "支"
+  },
+  {
+    "name": "格列本脲片",
+    "tradename": "优降糖",
+    "standard": "2.5mg*100片/盒",
+    "type": "激素类及影响内分泌药物",
+    "unit": "盒"
+  },
+  {
+    "name": "格列吡嗪片",
+    "tradename": "美吡达",
+    "standard": "5mg*30片/盒",
+    "type": "激素类及影响内分泌药物",
+    "unit": "盒"
+  },
+  {
+    "name": "格列吡嗪片",
+    "tradename": "迪沙",
+    "standard": "2.5mg*80片/盒",
+    "type": "激素类及影响内分泌药物",
+    "unit": "盒"
+  },
+  {
+    "name": "格列吡嗪片",
+    "tradename": "灭特尼",
+    "standard": "5mg*48片/盒",
+    "type": "激素类及影响内分泌药物",
+    "unit": "盒"
+  },
+  {
+    "name": "格列喹酮片",
+    "tradename": "糖适平",
+    "standard": "30mg*60片/盒",
+    "type": "激素类及影响内分泌药物",
+    "unit": "盒"
+  },
+  {
+    "name": "格列美脲滴丸",
+    "tradename": "瑞平",
+    "standard": "1mg*40粒/瓶",
+    "type": "激素类及影响内分泌药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "格列美脲片",
+    "tradename": "伊瑞",
+    "standard": "2mg*8片/盒",
+    "type": "激素类及影响内分泌药物",
+    "unit": "盒"
+  },
+  {
+    "name": "格列美脲片",
+    "tradename": "万苏平",
+    "standard": "2mg*12片/盒",
+    "type": "激素类及影响内分泌药物",
+    "unit": "盒"
+  },
+  {
+    "name": "格列齐特缓释片",
+    "tradename": "达美康",
+    "standard": "30mg*30片/盒",
+    "type": "激素类及影响内分泌药物",
+    "unit": "盒"
+  },
+  {
+    "name": "枸橼酸氯米芬胶囊",
+    "tradename": "克罗米芬",
+    "standard": "50mg*15粒/盒",
+    "type": "激素类及影响内分泌药物",
+    "unit": "盒"
+  },
+  {
+    "name": "甲泼尼龙琥珀酸钠",
+    "tradename": "甲强龙40",
+    "standard": "40mg/瓶",
+    "type": "激素类及影响内分泌药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "甲泼尼龙琥珀酸钠",
+    "tradename": "甲强龙500",
+    "standard": "500mg/瓶",
+    "type": "激素类及影响内分泌药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "甲巯咪唑片",
+    "tradename": "他巴唑片",
+    "standard": "5mg*100片/瓶",
+    "type": "激素类及影响内分泌药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "结合雌激素片",
+    "tradename": "倍美力",
+    "standard": "0.625mg*28片/盒",
+    "type": "激素类及影响内分泌药物",
+    "unit": "盒"
+  },
+  {
+    "name": "卡前列素氨丁三醇注射液",
+    "tradename": "欣母沛",
+    "standard": "250ug/支",
+    "type": "激素类及影响内分泌药物",
+    "unit": "支"
+  },
+  {
+    "name": "氯烯雌醚滴丸",
+    "tradename": "泰舒滴丸",
+    "standard": "4mg*24粒*2瓶/盒",
+    "type": "激素类及影响内分泌药物",
+    "unit": "盒"
+  },
+  {
+    "name": "马来酸罗格列酮片",
+    "tradename": "文迪雅",
+    "standard": "4mg*7片/盒",
+    "type": "激素类及影响内分泌药物",
+    "unit": "盒"
+  },
+  {
+    "name": "米非司酮片",
+    "tradename": "含珠停",
+    "standard": "25mg*6片/份",
+    "type": "激素类及影响内分泌药物",
+    "unit": "份"
+  },
+  {
+    "name": "脾氨肽口服冻干粉",
+    "tradename": "复可托粉",
+    "standard": "2mg*5支/盒",
+    "type": "激素类及影响内分泌药物",
+    "unit": "盒"
+  },
+  {
+    "name": "炔诺酮片",
+    "tradename": "妇康片",
+    "standard": "0.625mg*100片/瓶",
+    "type": "激素类及影响内分泌药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "瑞格列奈片",
+    "tradename": "诺和龙片1",
+    "standard": "1mg*30片/盒",
+    "type": "激素类及影响内分泌药物",
+    "unit": "盒"
+  },
+  {
+    "name": "瑞格列奈片",
+    "tradename": "诺和龙片2",
+    "standard": "2mg*30片/盒",
+    "type": "激素类及影响内分泌药物",
+    "unit": "盒"
+  },
+  {
+    "name": "瑞格列奈片",
+    "tradename": "孚来迪",
+    "standard": "0.5mg*30片/盒",
+    "type": "激素类及影响内分泌药物",
+    "unit": "盒"
+  },
+  {
+    "name": "缩宫素注射液",
+    "tradename": "催产素",
+    "standard": "10U:1ml*10支/盒",
+    "type": "激素类及影响内分泌药物",
+    "unit": "盒"
+  },
+  {
+    "name": "替勃龙片",
+    "tradename": "利维爱",
+    "standard": "2.5mg*7片/盒",
+    "type": "激素类及影响内分泌药物",
+    "unit": "盒"
+  },
+  {
+    "name": "戊酸雌二醇片",
+    "tradename": "补佳乐",
+    "standard": "1mg*21片/盒",
+    "type": "激素类及影响内分泌药物",
+    "unit": "盒"
+  },
+  {
+    "name": "盐酸吡格列酮片",
+    "tradename": "瑞彤",
+    "standard": "15mg*7片/盒",
+    "type": "激素类及影响内分泌药物",
+    "unit": "盒"
+  },
+  {
+    "name": "盐酸二甲双胍缓释片",
+    "tradename": "泰白",
+    "standard": "0.5g*10片/盒",
+    "type": "激素类及影响内分泌药物",
+    "unit": "盒"
+  },
+  {
+    "name": "盐酸二甲双呱片",
+    "tradename": "美迪康",
+    "standard": "0.25g*48片/盒",
+    "type": "激素类及影响内分泌药物",
+    "unit": "盒"
+  },
+  {
+    "name": "己稀雌酚片",
+    "tradename": "乙菧酚片",
+    "standard": "0.5mg*100片/瓶",
+    "type": "激素类及影响内分泌药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "己烯雌酚注射液",
+    "tradename": "乙菧酚注射液",
+    "standard": "2mg:1ml*10支/盒",
+    "type": "激素类及影响内分泌药物",
+    "unit": "盒"
+  },
+  {
+    "name": "孕三烯酮胶囊",
+    "tradename": "言昌",
+    "standard": "2.5mg*8粒/盒",
+    "type": "激素类及影响内分泌药物",
+    "unit": "盒"
+  },
+  {
+    "name": "注射用氢化可的松琥珀酸钠",
+    "tradename": "琥珀氢考",
+    "standard": "50mg*5瓶/盒",
+    "type": "激素类及影响内分泌药物",
+    "unit": "盒"
+  },
+  {
+    "name": "左旋甲状腺素钠片",
+    "tradename": "加衡",
+    "standard": "50ug*100片/盒",
+    "type": "激素类及影响内分泌药物",
+    "unit": "盒"
+  },
+  {
+    "name": "左旋甲状腺素钠片",
+    "tradename": "雷替斯",
+    "standard": "50ug*100片/盒",
+    "type": "激素类及影响内分泌药物",
+    "unit": "盒"
+  },
+  {
+    "name": "精蛋白生物合成人胰岛素",
+    "tradename": "诺和灵N笔芯",
+    "standard": "300IU:3ml/瓶",
+    "type": "激素类及影响内分泌药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "生物合成人胰岛素注射液",
+    "tradename": "诺和灵R笔芯",
+    "standard": "300IU:3ml/瓶",
+    "type": "激素类及影响内分泌药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "生物合成人胰岛素注射液",
+    "tradename": "诺和灵R针",
+    "standard": "400IU:10ml/瓶",
+    "type": "激素类及影响内分泌药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "重组人胰岛素注射液",
+    "tradename": "常规优泌林笔芯",
+    "standard": "300IU:3ml/瓶",
+    "type": "激素类及影响内分泌药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "精蛋白锌重组人胰岛素混合注射液",
+    "tradename": "混合70/30优泌林",
+    "standard": "300IU/瓶",
+    "type": "激素类及影响内分泌药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "精蛋白生物合成人胰岛素注射液",
+    "tradename": "诺和灵N特充",
+    "standard": "300U:3ml/瓶",
+    "type": "激素类及影响内分泌药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "门冬胰岛素注射液",
+    "tradename": "诺和锐特充",
+    "standard": "300IU:3ml/支",
+    "type": "激素类及影响内分泌药物",
+    "unit": "支"
+  },
+  {
+    "name": "门冬胰岛素30注射液",
+    "tradename": "诺和锐30特充",
+    "standard": "300u/支",
+    "type": "激素类及影响内分泌药物",
+    "unit": "支"
+  },
+  {
+    "name": "精蛋白生物合成人胰岛素注射液（预混30R）",
+    "tradename": "诺和灵笔芯30R",
+    "standard": "300IU:3ml/瓶",
+    "type": "激素类及影响内分泌药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "精蛋白生物合成人胰岛素注射液（预混50R）",
+    "tradename": "诺和灵笔芯50R",
+    "standard": "300IU:3ml/瓶",
+    "type": "激素类及影响内分泌药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "十一酸睾丸酮胶囊",
+    "tradename": "安特尔",
+    "standard": "40mg*16粒/盒",
+    "type": "激素类及影响内分泌药物",
+    "unit": "盒"
+  },
+  {
+    "name": "多西紫杉醇注射液",
+    "tradename": "泰素帝80",
+    "standard": "80mg/支",
+    "type": "抗肿瘤及辅助用药物",
+    "unit": "支"
+  },
+  {
+    "name": "多西紫杉醇注射液",
+    "tradename": "泰索帝20",
+    "standard": "20mg/支",
+    "type": "抗肿瘤及辅助用药物",
+    "unit": "支"
+  },
+  {
+    "name": "氟他胺片",
+    "tradename": "福至尔",
+    "standard": "0.25g*100片/盒",
+    "type": "抗肿瘤及辅助用药物",
+    "unit": "盒"
+  },
+  {
+    "name": "枸橼酸他莫昔芬片",
+    "tradename": "特茉芬",
+    "standard": "10mg*100片/瓶",
+    "type": "抗肿瘤及辅助用药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "鲑鱼降钙素注射液",
+    "tradename": "密钙息",
+    "standard": "1ml*5支/盒",
+    "type": "抗肿瘤及辅助用药物",
+    "unit": "盒"
+  },
+  {
+    "name": "降钙素鼻喷剂",
+    "tradename": "密钙息鼻喷剂",
+    "standard": "4400IU/瓶",
+    "type": "抗肿瘤及辅助用药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "酒石酸长春瑞滨软胶囊",
+    "tradename": "盖诺",
+    "standard": "20mg*2粒/盒",
+    "type": "抗肿瘤及辅助用药物",
+    "unit": "盒"
+  },
+  {
+    "name": "酒石酸长春瑞滨注射液",
+    "tradename": "盖诺",
+    "standard": "10mg/支",
+    "type": "抗肿瘤及辅助用药物",
+    "unit": "支"
+  },
+  {
+    "name": "卡培他滨片",
+    "tradename": "希罗达",
+    "standard": "500mg*30片/盒",
+    "type": "抗肿瘤及辅助用药物",
+    "unit": "盒"
+  },
+  {
+    "name": "来曲唑",
+    "tradename": "弗隆",
+    "standard": "2.5mg*30片",
+    "type": "抗肿瘤及辅助用药物",
+    "unit": "片"
+  },
+  {
+    "name": "硫酸长春地辛",
+    "tradename": "朴康",
+    "standard": "4mg/瓶",
+    "type": "抗肿瘤及辅助用药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "氯膦酸二钠片",
+    "tradename": "固令",
+    "standard": "800mg*30片/盒",
+    "type": "抗肿瘤及辅助用药物",
+    "unit": "盒"
+  },
+  {
+    "name": "氯膦酸二钠注射液",
+    "tradename": "固令",
+    "standard": "300mg:5ml*5支/盒",
+    "type": "抗肿瘤及辅助用药物",
+    "unit": "盒"
+  },
+  {
+    "name": "尿嘧啶替加氟片",
+    "tradename": "优福定",
+    "standard": "0.162g*20片/盒",
+    "type": "抗肿瘤及辅助用药物",
+    "unit": "盒"
+  },
+  {
+    "name": "匹多莫德口服液",
+    "tradename": "芙露饮口服液",
+    "standard": "10ml*6支/盒",
+    "type": "抗肿瘤及辅助用药物",
+    "unit": "盒"
+  },
+  {
+    "name": "去氧氟尿苷胶囊",
+    "tradename": "奇诺必通",
+    "standard": "0.2g*24粒/盒",
+    "type": "抗肿瘤及辅助用药物",
+    "unit": "盒"
+  },
+  {
+    "name": "顺铂注射液",
+    "tradename": "铂龙",
+    "standard": "20mg:20ml/支",
+    "type": "抗肿瘤及辅助用药物",
+    "unit": "支"
+  },
+  {
+    "name": "替加氟片",
+    "tradename": "喃氟啶",
+    "standard": "50mg*100片/盒",
+    "type": "抗肿瘤及辅助用药物",
+    "unit": "盒"
+  },
+  {
+    "name": "替尼泊苷注射液",
+    "tradename": "卫萌",
+    "standard": "50mg:5ml/支",
+    "type": "抗肿瘤及辅助用药物",
+    "unit": "支"
+  },
+  {
+    "name": "西妥昔单抗注射液",
+    "tradename": "爱必妥",
+    "standard": "100mg:50ml/瓶",
+    "type": "抗肿瘤及辅助用药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "亚砷酸氯化钠注射液",
+    "tradename": "伊泰达",
+    "standard": "10ml/支",
+    "type": "抗肿瘤及辅助用药物",
+    "unit": "支"
+  },
+  {
+    "name": "盐酸厄洛替尼片",
+    "tradename": "特罗凯",
+    "standard": "150mg*30片/盒",
+    "type": "抗肿瘤及辅助用药物",
+    "unit": "盒"
+  },
+  {
+    "name": "依托泊苷注射液",
+    "tradename": "足叶乙甙",
+    "standard": "0.1g*5支/盒",
+    "type": "抗肿瘤及辅助用药物",
+    "unit": "盒"
+  },
+  {
+    "name": "依西美坦片",
+    "tradename": "可怡",
+    "standard": "25mg*10片/盒",
+    "type": "抗肿瘤及辅助用药物",
+    "unit": "盒"
+  },
+  {
+    "name": "重组人血管内皮抑制素注射液",
+    "tradename": "恩度",
+    "standard": "15mg/3ml/支",
+    "type": "抗肿瘤及辅助用药物",
+    "unit": "支"
+  },
+  {
+    "name": "注射用氮烯咪胺",
+    "tradename": "达卡巴嗪",
+    "standard": "100mg/瓶",
+    "type": "抗肿瘤及辅助用药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "注射用放线菌素D",
+    "tradename": "更生霉素",
+    "standard": "0.2mg/瓶",
+    "type": "抗肿瘤及辅助用药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "注射用奥沙利铂",
+    "tradename": "艾恒",
+    "standard": "50mg/瓶",
+    "type": "抗肿瘤及辅助用药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "注射用奥沙利铂",
+    "tradename": "奥铂",
+    "standard": "50mg/瓶",
+    "type": "抗肿瘤及辅助用药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "注射用奥沙利铂",
+    "tradename": "乐沙定",
+    "standard": "50mg/瓶",
+    "type": "抗肿瘤及辅助用药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "注射用吉西他滨",
+    "tradename": "泽菲0.2",
+    "standard": "0.2g/瓶",
+    "type": "抗肿瘤及辅助用药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "注射用吉西他滨",
+    "tradename": "健择",
+    "standard": "0.2",
+    "type": "抗肿瘤及辅助用药物",
+    "unit": "2"
+  },
+  {
+    "name": "注射用磷酸氟达拉滨",
+    "tradename": "福达华",
+    "standard": "50mg/瓶",
+    "type": "抗肿瘤及辅助用药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "注射用奈达铂",
+    "tradename": "捷佰舒",
+    "standard": "10mg*5瓶/盒",
+    "type": "抗肿瘤及辅助用药物",
+    "unit": "盒"
+  },
+  {
+    "name": "注射用帕米膦酸二钠",
+    "tradename": "博宁",
+    "standard": "15mg/瓶",
+    "type": "抗肿瘤及辅助用药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "注射用帕米膦酸二钠",
+    "tradename": "阿可达",
+    "standard": "30mg/瓶",
+    "type": "抗肿瘤及辅助用药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "注射用羟喜树碱",
+    "tradename": "拓僖",
+    "standard": "2mg/瓶",
+    "type": "抗肿瘤及辅助用药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "注射用曲妥珠单抗",
+    "tradename": "赫赛汀",
+    "standard": "440mg/瓶",
+    "type": "抗肿瘤及辅助用药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "注射用盐酸表柔比星",
+    "tradename": "艾达生",
+    "standard": "10mg/瓶",
+    "type": "抗肿瘤及辅助用药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "注射用盐酸多柔比星",
+    "tradename": "阿霉素",
+    "standard": "10mg/瓶",
+    "type": "抗肿瘤及辅助用药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "注射用盐酸平阳霉素",
+    "tradename": "平阳星",
+    "standard": "8mg/瓶",
+    "type": "抗肿瘤及辅助用药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "注射用盐酸伊立替康",
+    "tradename": "开普拓",
+    "standard": "100mg:5ml/支",
+    "type": "抗肿瘤及辅助用药物",
+    "unit": "支"
+  },
+  {
+    "name": "注射用盐酸伊立替康",
+    "tradename": "艾力",
+    "standard": "100mg/瓶",
+    "type": "抗肿瘤及辅助用药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "注射用异环磷酰胺",
+    "tradename": "匹服平",
+    "standard": "0.5g/瓶",
+    "type": "抗肿瘤及辅助用药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "注射用重组人Ⅱ型肿瘤坏死因子受体",
+    "tradename": "益赛普",
+    "standard": "12.5mg/瓶",
+    "type": "抗肿瘤及辅助用药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "注射用唑来膦酸",
+    "tradename": "择泰",
+    "standard": "4mg/瓶",
+    "type": "抗肿瘤及辅助用药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "紫杉醇注射液",
+    "tradename": "特素",
+    "standard": "30mg/支",
+    "type": "抗肿瘤及辅助用药物",
+    "unit": "支"
+  },
+  {
+    "name": "紫杉醇注射液",
+    "tradename": "卡其平",
+    "standard": "10ml:60mg/瓶",
+    "type": "抗肿瘤及辅助用药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "唑来膦酸注射液",
+    "tradename": "天晴依泰",
+    "standard": "5ml:4mg/支",
+    "type": "抗肿瘤及辅助用药物",
+    "unit": "支"
+  },
+  {
+    "name": "0.9%氯化钠注射液",
+    "tradename": "生理盐水",
+    "standard": "10ml*5支/盒",
+    "type": "维生素、无机盐、复方氨基酸及营养药物",
+    "unit": "盒"
+  },
+  {
+    "name": "w-3鱼油脂肪乳注射液",
+    "tradename": "尤文",
+    "standard": "100ml:10g/瓶",
+    "type": "维生素、无机盐、复方氨基酸及营养药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "阿法骨化醇胶丸",
+    "tradename": "法能",
+    "standard": "0.25ug*20粒/盒",
+    "type": "维生素、无机盐、复方氨基酸及营养药物",
+    "unit": "盒"
+  },
+  {
+    "name": "氨基酸螯合钙胶囊",
+    "tradename": "乐力胶囊",
+    "standard": "1g*30粒/瓶",
+    "type": "维生素、无机盐、复方氨基酸及营养药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "氨基酸葡萄糖注射液",
+    "tradename": "克灵麦",
+    "standard": "2000ml/袋",
+    "type": "维生素、无机盐、复方氨基酸及营养药物",
+    "unit": "袋"
+  },
+  {
+    "name": "复方维生素注射液(4)",
+    "tradename": "若维",
+    "standard": "2ml/支",
+    "type": "维生素、无机盐、复方氨基酸及营养药物",
+    "unit": "支"
+  },
+  {
+    "name": "甘油磷酸钠注射液",
+    "tradename": "格列福斯",
+    "standard": "10ml/支",
+    "type": "维生素、无机盐、复方氨基酸及营养药物",
+    "unit": "支"
+  },
+  {
+    "name": "骨化三醇软胶囊",
+    "tradename": "罗盖全",
+    "standard": "0.25ug*10粒/盒",
+    "type": "维生素、无机盐、复方氨基酸及营养药物",
+    "unit": "盒"
+  },
+  {
+    "name": "果糖注射液",
+    "tradename": "丰海能",
+    "standard": "250ml:12.5g/瓶",
+    "type": "维生素、无机盐、复方氨基酸及营养药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "甲钴胺片",
+    "tradename": "弥可保片",
+    "standard": "500ug*10片*10板/盒",
+    "type": "维生素、无机盐、复方氨基酸及营养药物",
+    "unit": "盒"
+  },
+  {
+    "name": "丙氨酰谷氨酰胺注射液",
+    "tradename": "力太",
+    "standard": "20g:100ml/瓶",
+    "type": "维生素、无机盐、复方氨基酸及营养药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "丙氨酰谷氨酰胺注射液",
+    "tradename": "多蒙特",
+    "standard": "100ml:20g/瓶",
+    "type": "维生素、无机盐、复方氨基酸及营养药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "肠内高能营养多聚合剂",
+    "tradename": "能全素",
+    "standard": "320g/听",
+    "type": "维生素、无机盐、复方氨基酸及营养药物",
+    "unit": "听"
+  },
+  {
+    "name": "肠内营养粉",
+    "tradename": "维沃",
+    "standard": "80.4g/袋",
+    "type": "维生素、无机盐、复方氨基酸及营养药物",
+    "unit": "袋"
+  },
+  {
+    "name": "肠内营养混悬液（TPF）含膳食纤维",
+    "tradename": "能全力",
+    "standard": "500ml/瓶",
+    "type": "维生素、无机盐、复方氨基酸及营养药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "肠内营养混悬液（SP）（短肽）",
+    "tradename": "百普力",
+    "standard": "500ml/瓶",
+    "type": "维生素、无机盐、复方氨基酸及营养药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "肠内营养乳剂（TP）",
+    "tradename": "瑞素",
+    "standard": "500ml/瓶",
+    "type": "维生素、无机盐、复方氨基酸及营养药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "肠内营养乳剂(TPF-D)",
+    "tradename": "瑞代",
+    "standard": "500ml/瓶",
+    "type": "维生素、无机盐、复方氨基酸及营养药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "多维元素片",
+    "tradename": "金施尔康",
+    "standard": "1片*30片/瓶",
+    "type": "维生素、无机盐、复方氨基酸及营养药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "多种微量元素注射液",
+    "tradename": "安达美",
+    "standard": "10ml*10支/盒",
+    "type": "维生素、无机盐、复方氨基酸及营养药物",
+    "unit": "盒"
+  },
+  {
+    "name": "复方氨基酸注射液(18AA)",
+    "tradename": "强肽",
+    "standard": "250ml/瓶",
+    "type": "维生素、无机盐、复方氨基酸及营养药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "复方氨基酸注射液（18AA-Ⅱ）",
+    "tradename": "乐凡命",
+    "standard": "42.5g:500ml/瓶",
+    "type": "维生素、无机盐、复方氨基酸及营养药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "复方氨基酸注射液(18-B)",
+    "tradename": "绿支安",
+    "standard": "200ml:20.65g/瓶",
+    "type": "维生素、无机盐、复方氨基酸及营养药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "复方氨基酸注射液（3AA)",
+    "tradename": "支链氨基酸",
+    "standard": "250ml/瓶",
+    "type": "维生素、无机盐、复方氨基酸及营养药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "复方乳酸钠山犁醇注射液",
+    "tradename": "赫丝",
+    "standard": "500ml/瓶",
+    "type": "维生素、无机盐、复方氨基酸及营养药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "甲钴胺注射液",
+    "tradename": "弥可保针",
+    "standard": "500ug*10支/盒",
+    "type": "维生素、无机盐、复方氨基酸及营养药物",
+    "unit": "盒"
+  },
+  {
+    "name": "赖氨肌醇维B12口服液",
+    "tradename": "同笑",
+    "standard": "100ml/瓶",
+    "type": "维生素、无机盐、复方氨基酸及营养药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "氯化钾缓释片",
+    "tradename": "补达秀",
+    "standard": "500mg*24片/盒",
+    "type": "维生素、无机盐、复方氨基酸及营养药物",
+    "unit": "盒"
+  },
+  {
+    "name": "木糖醇注射液",
+    "tradename": "仙能舒",
+    "standard": "500ml/瓶",
+    "type": "维生素、无机盐、复方氨基酸及营养药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "碳酸钙D3咀嚼片",
+    "tradename": "凯思立D",
+    "standard": "1片*20片/瓶",
+    "type": "维生素、无机盐、复方氨基酸及营养药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "维D钙咀嚼片",
+    "tradename": "迪巧",
+    "standard": "300mg*60片/瓶",
+    "type": "维生素、无机盐、复方氨基酸及营养药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "维生素C泡腾片",
+    "tradename": "力度伸",
+    "standard": "1g*10片/盒",
+    "type": "维生素、无机盐、复方氨基酸及营养药物",
+    "unit": "盒"
+  },
+  {
+    "name": "小儿复方四维亚铁散",
+    "tradename": "金维康",
+    "standard": "10g*10包/盒",
+    "type": "维生素、无机盐、复方氨基酸及营养药物",
+    "unit": "盒"
+  },
+  {
+    "name": "脂肪乳氨基酸葡萄糖注射液",
+    "tradename": "卡文",
+    "standard": "1440ml/袋",
+    "type": "维生素、无机盐、复方氨基酸及营养药物",
+    "unit": "袋"
+  },
+  {
+    "name": "脂溶性维生素注射液",
+    "tradename": "维他利匹特",
+    "standard": "10ml*10支/盒",
+    "type": "维生素、无机盐、复方氨基酸及营养药物",
+    "unit": "盒"
+  },
+  {
+    "name": "中长链脂肪乳注射液(C6-24)",
+    "tradename": "力能",
+    "standard": "250ml;25g:25g/瓶",
+    "type": "维生素、无机盐、复方氨基酸及营养药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "注射用12种复合维生素",
+    "tradename": "施尼维他",
+    "standard": "5ml/瓶",
+    "type": "维生素、无机盐、复方氨基酸及营养药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "注射用复方三维B(Ⅱ)",
+    "tradename": "阿贝奇诺",
+    "standard": "瓶",
+    "type": "维生素、无机盐、复方氨基酸及营养药物",
+    "unit": ""
+  },
+  {
+    "name": "注射用水溶性维生素",
+    "tradename": "水乐维他",
+    "standard": "10瓶/盒",
+    "type": "维生素、无机盐、复方氨基酸及营养药物",
+    "unit": "盒"
+  },
+  {
+    "name": "注射用水溶性维生素",
+    "tradename": "九唯他",
+    "standard": "2瓶/盒",
+    "type": "维生素、无机盐、复方氨基酸及营养药物",
+    "unit": "盒"
+  },
+  {
+    "name": "注射用水溶性维生素",
+    "tradename": "V佳林",
+    "standard": "瓶",
+    "type": "维生素、无机盐、复方氨基酸及营养药物",
+    "unit": ""
+  },
+  {
+    "name": "注射用水溶性维生素",
+    "tradename": "欣维",
+    "standard": "瓶",
+    "type": "维生素、无机盐、复方氨基酸及营养药物",
+    "unit": ""
+  },
+  {
+    "name": "转化糖注射液",
+    "tradename": "耐能",
+    "standard": "6.25g:250ml/袋",
+    "type": "维生素、无机盐、复方氨基酸及营养药物",
+    "unit": "袋"
+  },
+  {
+    "name": "三磷酸腺苷二钠注射液",
+    "tradename": "ATP",
+    "standard": "2ml:20mg*10支/盒",
+    "type": "酶类制剂",
+    "unit": "盒"
+  },
+  {
+    "name": "舍雷肽酶肠溶片",
+    "tradename": "释瑞达",
+    "standard": "10mg*20片/盒",
+    "type": "酶类制剂",
+    "unit": "盒"
+  },
+  {
+    "name": "胰激肽释放酶肠溶片",
+    "tradename": "怡开",
+    "standard": "120U*24片/包",
+    "type": "酶类制剂",
+    "unit": "包"
+  },
+  {
+    "name": "胰激肽原酶",
+    "tradename": "怡开针",
+    "standard": "40iu/瓶",
+    "type": "酶类制剂",
+    "unit": "瓶"
+  },
+  {
+    "name": "重组牛碱性成纤维细胞生长因子",
+    "tradename": "贝复济",
+    "standard": "15ml/瓶",
+    "type": "酶类制剂",
+    "unit": "瓶"
+  },
+  {
+    "name": "注射用三磷酸腺苷辅酶胰岛素",
+    "tradename": "怡新力",
+    "standard": "1瓶*6瓶/盒",
+    "type": "酶类制剂",
+    "unit": "盒"
+  },
+  {
+    "name": "注射用三磷酸腺苷辅酶胰岛素",
+    "tradename": "强能",
+    "standard": "瓶",
+    "type": "酶类制剂",
+    "unit": ""
+  },
+  {
+    "name": "注射用乌司他丁",
+    "tradename": "天普洛安",
+    "standard": "10万U/瓶",
+    "type": "酶类制剂",
+    "unit": "瓶"
+  },
+  {
+    "name": "注射用抑肽酶",
+    "tradename": "赫泰林",
+    "standard": "278IU/瓶",
+    "type": "酶类制剂",
+    "unit": "瓶"
+  },
+  {
+    "name": "吡诺克辛钠滴眼液",
+    "tradename": "白内停眼液",
+    "standard": "15ml/支",
+    "type": "五官科用药物",
+    "unit": "支"
+  },
+  {
+    "name": "玻璃酸钠",
+    "tradename": "爱维",
+    "standard": "5mg:0.5ml/支",
+    "type": "五官科用药物",
+    "unit": "支"
+  },
+  {
+    "name": "复方硫酸锌滴眼液",
+    "tradename": "宝亮滴眼液",
+    "standard": "8ml/支",
+    "type": "五官科用药物",
+    "unit": "支"
+  },
+  {
+    "name": "复方硫酸新霉素滴眼液",
+    "tradename": "科恒滴眼液",
+    "standard": "5ml/支",
+    "type": "五官科用药物",
+    "unit": "支"
+  },
+  {
+    "name": "复方尿维氨滴眼液",
+    "tradename": "中鑫",
+    "standard": "15ml/支",
+    "type": "五官科用药物",
+    "unit": "支"
+  },
+  {
+    "name": "卡巴胆碱注射液",
+    "tradename": "卡米可林",
+    "standard": "1ml:0.1mg/支",
+    "type": "五官科用药物",
+    "unit": "支"
+  },
+  {
+    "name": "氯霉素滴眼液",
+    "tradename": "润舒滴眼液",
+    "standard": "5ml/支",
+    "type": "五官科用药物",
+    "unit": "支"
+  },
+  {
+    "name": "妥布霉素滴眼液",
+    "tradename": "托百士",
+    "standard": "5ml:0.3%/瓶",
+    "type": "五官科用药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "妥布霉素地塞米松滴眼液",
+    "tradename": "典必殊",
+    "standard": "5ml支",
+    "type": "五官科用药物",
+    "unit": "支"
+  },
+  {
+    "name": "吸入用异丙托溴铵溶液",
+    "tradename": "爱全乐",
+    "standard": "2ml:500ug*10支/盒",
+    "type": "五官科用药物",
+    "unit": "盒"
+  },
+  {
+    "name": "硝酸毛果芸香碱滴眼液",
+    "tradename": "真瑞",
+    "standard": "5ml:25mg/支",
+    "type": "五官科用药物",
+    "unit": "支"
+  },
+  {
+    "name": "糠甾醇",
+    "tradename": "牙周宁片",
+    "standard": "40mg*100片/瓶",
+    "type": "五官科用药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "盐酸奥布卡因",
+    "tradename": "倍诺喜",
+    "standard": "20ml:80mg/支",
+    "type": "五官科用药物",
+    "unit": "支"
+  },
+  {
+    "name": "氧氟沙星滴耳液",
+    "tradename": "泰利必妥",
+    "standard": "0.3%:5ml/瓶",
+    "type": "五官科用药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "马来酸噻吗洛尔滴眼液",
+    "tradename": "噻吗心安眼液(噻吗洛尔)",
+    "standard": "5ml/支",
+    "type": "五官科用药物",
+    "unit": "支"
+  },
+  {
+    "name": "萘敏维滴眼液",
+    "tradename": "润洁滴眼液",
+    "standard": "10ml/支",
+    "type": "五官科用药物",
+    "unit": "支"
+  },
+  {
+    "name": "诺氟沙星滴眼液",
+    "tradename": "氟哌酸眼液",
+    "standard": "8ml/支",
+    "type": "五官科用药物",
+    "unit": "支"
+  },
+  {
+    "name": "施荣露滴眼液",
+    "tradename": "视明露",
+    "standard": "7ml支",
+    "type": "五官科用药物",
+    "unit": "支"
+  },
+  {
+    "name": "托吡卡胺滴眼液",
+    "tradename": "美多丽",
+    "standard": "10ml:0.1g/支",
+    "type": "五官科用药物",
+    "unit": "支"
+  },
+  {
+    "name": "乙酰半胱胺酸滴眼液",
+    "tradename": "光安",
+    "standard": "5ml/支",
+    "type": "五官科用药物",
+    "unit": "支"
+  },
+  {
+    "name": "右旋糖酐70滴眼液",
+    "tradename": "泪然滴眼液",
+    "standard": "15ml/支",
+    "type": "五官科用药物",
+    "unit": "支"
+  },
+  {
+    "name": "重组牛碱性成纤维细胞生长因子",
+    "tradename": "贝复舒眼药水",
+    "standard": "5ml*1支/盒",
+    "type": "五官科用药物",
+    "unit": "盒"
+  },
+  {
+    "name": "左氧氟沙星滴眼液",
+    "tradename": "视邦",
+    "standard": "15mg/支",
+    "type": "五官科用药物",
+    "unit": "支"
+  },
+  {
+    "name": "苯扎氯铵贴",
+    "tradename": "创口贴",
+    "standard": "1贴*100贴/盒",
+    "type": "皮肤科用药物",
+    "unit": "盒"
+  },
+  {
+    "name": "醋酸曲安萘德乳膏",
+    "tradename": "确A软膏",
+    "standard": "4g/支",
+    "type": "皮肤科用药物",
+    "unit": "支"
+  },
+  {
+    "name": "丁酸氢化可的松软膏",
+    "tradename": "尤卓尔",
+    "standard": "10g/支",
+    "type": "皮肤科用药物",
+    "unit": "支"
+  },
+  {
+    "name": "二硫化硒洗剂",
+    "tradename": "希尔生洗剂",
+    "standard": "100ml/瓶",
+    "type": "皮肤科用药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "复方氨肽素片",
+    "tradename": "迪银片",
+    "standard": "120片/瓶",
+    "type": "皮肤科用药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "曲安萘德益康唑乳膏",
+    "tradename": "派瑞松",
+    "standard": "15g/支",
+    "type": "皮肤科用药物",
+    "unit": "支"
+  },
+  {
+    "name": "复方吲哚美辛酊",
+    "tradename": "舒夫特",
+    "standard": "60ml/瓶",
+    "type": "皮肤科用药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "哈西奈德溶液",
+    "tradename": "乐肤液",
+    "standard": "10ml/支",
+    "type": "皮肤科用药物",
+    "unit": "支"
+  },
+  {
+    "name": "糠酸莫米松乳膏",
+    "tradename": "艾洛松",
+    "standard": "5g/支",
+    "type": "皮肤科用药物",
+    "unit": "支"
+  },
+  {
+    "name": "克罗米通乳膏",
+    "tradename": "优力肤霜",
+    "standard": "10g/支",
+    "type": "皮肤科用药物",
+    "unit": "支"
+  },
+  {
+    "name": "克霉唑倍他米松乳膏",
+    "tradename": "荷洛松",
+    "standard": "5g/支",
+    "type": "皮肤科用药物",
+    "unit": "支"
+  },
+  {
+    "name": "丙酸氯倍他索乳膏",
+    "tradename": "恩肤霜",
+    "standard": "10g/支",
+    "type": "皮肤科用药物",
+    "unit": "支"
+  },
+  {
+    "name": "曲安奈德新霉素贴膏",
+    "tradename": "肤疾宁",
+    "standard": "4片*50袋/盒",
+    "type": "皮肤科用药物",
+    "unit": "盒"
+  },
+  {
+    "name": "曲咪新乳膏",
+    "tradename": "皮康霜",
+    "standard": "10g/支",
+    "type": "皮肤科用药物",
+    "unit": "支"
+  },
+  {
+    "name": "曲咪新乳膏",
+    "tradename": "顺峰康霜",
+    "standard": "10g/支",
+    "type": "皮肤科用药物",
+    "unit": "支"
+  },
+  {
+    "name": "硝酸咪康唑乳膏",
+    "tradename": "达克宁霜",
+    "standard": "20g/支",
+    "type": "皮肤科用药物",
+    "unit": "支"
+  },
+  {
+    "name": "盐酸布替萘芬乳膏",
+    "tradename": "洁宁",
+    "standard": "10g:0.1g/支",
+    "type": "皮肤科用药物",
+    "unit": "支"
+  },
+  {
+    "name": "盐酸特比奈芬乳膏",
+    "tradename": "兰美抒",
+    "standard": "5g/支",
+    "type": "皮肤科用药物",
+    "unit": "支"
+  },
+  {
+    "name": "樟脑薄荷柳酯乳膏",
+    "tradename": "必舒膏",
+    "standard": "4g/支",
+    "type": "皮肤科用药物",
+    "unit": "支"
+  },
+  {
+    "name": "重组人干扰素a-2b凝胶",
+    "tradename": "尤靖安",
+    "standard": "(10万iu/g)5g/支",
+    "type": "皮肤科用药物",
+    "unit": "支"
+  },
+  {
+    "name": "白芍总苷胶囊",
+    "tradename": "帕夫林",
+    "standard": "0.3g*36粒/盒",
+    "type": "免疫调节药物",
+    "unit": "盒"
+  },
+  {
+    "name": "草分枝杆菌F.u36",
+    "tradename": "乌体林斯",
+    "standard": "1.72ug*1支/支",
+    "type": "免疫调节药物",
+    "unit": "支"
+  },
+  {
+    "name": "抗Tac单抗注射剂",
+    "tradename": "赛尼哌",
+    "standard": "25mg:5ml*1支/支",
+    "type": "免疫调节药物",
+    "unit": "支"
+  },
+  {
+    "name": "硫唑嘌呤片",
+    "tradename": "依木兰",
+    "standard": "50mg*100片/盒",
+    "type": "免疫调节药物",
+    "unit": "盒"
+  },
+  {
+    "name": "沙利度胺片",
+    "tradename": "反应停",
+    "standard": "50mg*20片/盒",
+    "type": "免疫调节药物",
+    "unit": "盒"
+  },
+  {
+    "name": "他克莫司胶囊",
+    "tradename": "普乐可复",
+    "standard": "1mg*50粒/盒",
+    "type": "免疫调节药物",
+    "unit": "盒"
+  },
+  {
+    "name": "乌苯美司胶囊",
+    "tradename": "百士欣",
+    "standard": "10mg*15粒/盒",
+    "type": "免疫调节药物",
+    "unit": "盒"
+  },
+  {
+    "name": "胸腺肽注射液",
+    "tradename": "日达仙",
+    "standard": "1.6mg*2支/盒",
+    "type": "免疫调节药物",
+    "unit": "盒"
+  },
+  {
+    "name": "重组人白介素-11",
+    "tradename": "迈格尔600",
+    "standard": "0.75mg*1瓶/瓶",
+    "type": "免疫调节药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "重组人白介素-11",
+    "tradename": "吉巨芬",
+    "standard": "3mg*1瓶/瓶",
+    "type": "免疫调节药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "重组人白介素-11",
+    "tradename": "巨和粒",
+    "standard": "2400万单位:3mg/瓶",
+    "type": "免疫调节药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "重组人白介素-2",
+    "tradename": "欣吉尔",
+    "standard": "50万U*1瓶/瓶",
+    "type": "免疫调节药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "重组人干扰素α-1b",
+    "tradename": "干扰灵",
+    "standard": "10ug*1瓶/瓶",
+    "type": "免疫调节药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "重组人干扰素α-2b",
+    "tradename": "万复因",
+    "standard": "300万U*1瓶/瓶",
+    "type": "免疫调节药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "重组人干扰素α-2b注射液(多剂量笔)",
+    "tradename": "甘乐能",
+    "standard": "18百万IU:1.2ml/支",
+    "type": "免疫调节药物",
+    "unit": "支"
+  },
+  {
+    "name": "注射用香菇多糖",
+    "tradename": "天地欣",
+    "standard": "1mg*1瓶/瓶",
+    "type": "免疫调节药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "注射用香菇多糖",
+    "tradename": "易能",
+    "standard": "1mg*1瓶/瓶",
+    "type": "免疫调节药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "注射用胸腺五肽",
+    "tradename": "欧宁",
+    "standard": "1mg*1瓶/瓶",
+    "type": "免疫调节药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "注射用胸腺五肽",
+    "tradename": "翰强",
+    "standard": "10mg*1瓶/瓶",
+    "type": "免疫调节药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "注射用重组人干扰素a-2b",
+    "tradename": "英特龙",
+    "standard": "300万IU/瓶",
+    "type": "免疫调节药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "50%葡萄糖注射液",
+    "tradename": "高糖",
+    "standard": "20ml*5支/盒",
+    "type": "泌尿系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "非那雄胺片",
+    "tradename": "保列治",
+    "standard": "5mg*10片/盒",
+    "type": "泌尿系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "呋噻米片",
+    "tradename": "速尿片",
+    "standard": "20mg*100片/瓶",
+    "type": "泌尿系统药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "呋噻米注射液",
+    "tradename": "速尿针",
+    "standard": "2ml:20mg*10支/盒",
+    "type": "泌尿系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "复方阿米洛利片",
+    "tradename": "武都力片",
+    "standard": "1片*24片/盒",
+    "type": "泌尿系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "复方甘露醇注射液",
+    "tradename": "普可",
+    "standard": "250ml/瓶",
+    "type": "泌尿系统药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "甘油果糖注射液",
+    "tradename": "博坦",
+    "standard": "250ml/瓶",
+    "type": "泌尿系统药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "甘油果糖注射液",
+    "tradename": "迪得",
+    "standard": "250ml/瓶",
+    "type": "泌尿系统药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "酒石酸托特罗定片",
+    "tradename": "舍尼亭",
+    "standard": "2mg*14片/盒",
+    "type": "泌尿系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "螺内酯片",
+    "tradename": "安体舒通",
+    "standard": "20mg*100片/瓶",
+    "type": "泌尿系统药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "美斯钠注射液",
+    "tradename": "美安",
+    "standard": "0.4g/支",
+    "type": "泌尿系统药物",
+    "unit": "支"
+  },
+  {
+    "name": "萘哌地尔片",
+    "tradename": "那妥",
+    "standard": "25mg*10片/盒",
+    "type": "泌尿系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "普乐安片",
+    "tradename": "前列康",
+    "standard": "0.5g*60片/瓶",
+    "type": "泌尿系统药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "氢氯噻嗪片",
+    "tradename": "双克",
+    "standard": "25mg*100片/瓶",
+    "type": "泌尿系统药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "鞣酸加压素注射液",
+    "tradename": "长效尿崩停",
+    "standard": "5ml*300u/支",
+    "type": "泌尿系统药物",
+    "unit": "支"
+  },
+  {
+    "name": "复方α－酮酸片",
+    "tradename": "开同",
+    "standard": "0.63g*100片/盒",
+    "type": "泌尿系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "托拉塞米注射液",
+    "tradename": "特苏尼",
+    "standard": "20mg:2ml/支",
+    "type": "泌尿系统药物",
+    "unit": "支"
+  },
+  {
+    "name": "盐酸阿夫唑嗪缓释片",
+    "tradename": "桑塔",
+    "standard": "5mg*14片/盒",
+    "type": "泌尿系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "盐酸阿夫唑嗪片",
+    "tradename": "维平",
+    "standard": "2.5mg*30片/盒",
+    "type": "泌尿系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "盐酸黄酮哌酯片",
+    "tradename": "泌尿灵(津源灵)",
+    "standard": "0.2g*30片/盒",
+    "type": "泌尿系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "盐酸坦索罗辛缓释胶囊",
+    "tradename": "哈乐",
+    "standard": "0.2mg*10粒/盒",
+    "type": "泌尿系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "盐酸特拉唑嗪片",
+    "tradename": "马沙尼",
+    "standard": "2mg*28片/盒",
+    "type": "泌尿系统药物",
+    "unit": "盒"
+  },
+  {
+    "name": "药用炭片",
+    "tradename": "爱西特",
+    "standard": "0.3g*100片/瓶",
+    "type": "泌尿系统药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "注射用硫代硫酸钠",
+    "tradename": "大苏打",
+    "standard": "0.64g/瓶",
+    "type": "诊断用药及解毒药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "碘海醇注射液",
+    "tradename": "欧乃派克",
+    "standard": "35g:100ml/瓶",
+    "type": "诊断用药及解毒药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "碘克沙醇注射液",
+    "tradename": "威视派克",
+    "standard": "320mg/100ml/瓶",
+    "type": "诊断用药及解毒药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "碘普罗胺注射液",
+    "tradename": "优维显",
+    "standard": "37g:100ml/瓶",
+    "type": "诊断用药及解毒药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "轧喷酸葡胺注射液",
+    "tradename": "马根维显10",
+    "standard": "469.01mg:10ml/瓶",
+    "type": "诊断用药及解毒药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "轧喷酸葡胺注射液",
+    "tradename": "马根维显15",
+    "standard": "469.01mg:15ml/支",
+    "type": "诊断用药及解毒药物",
+    "unit": "支"
+  },
+  {
+    "name": "亚甲兰注射液",
+    "tradename": "美兰",
+    "standard": "20mg*5支/盒",
+    "type": "诊断用药及解毒药物",
+    "unit": "盒"
+  },
+  {
+    "name": "聚甲酚磺醛溶液",
+    "tradename": "爱宝疗",
+    "standard": "360mg/瓶",
+    "type": "诊断用药及解毒药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "聚甲酚磺醛栓",
+    "tradename": "克君清",
+    "standard": "90mg*6枚/盒",
+    "type": "诊断用药及解毒药物",
+    "unit": "盒"
+  },
+  {
+    "name": "硝酸咪康唑栓",
+    "tradename": "达克宁栓",
+    "standard": "3粒/盒",
+    "type": "诊断用药及解毒药物",
+    "unit": "盒"
+  },
+  {
+    "name": "氧氟沙星阴道泡腾片",
+    "tradename": "奥卫特",
+    "standard": "0.1g*7片/盒",
+    "type": "诊断用药及解毒药物",
+    "unit": "盒"
+  },
+  {
+    "name": "制霉菌素泡腾阴道片",
+    "tradename": "米可定泡腾阴道片",
+    "standard": "14片",
+    "type": "诊断用药及解毒药物",
+    "unit": "片"
+  },
+  {
+    "name": "0.9%氯化钠注射液",
+    "tradename": "外用盐水",
+    "standard": "500ml/瓶",
+    "type": "调节水盐、电解质和酸碱平衡用药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "多磺酸粘多糖",
+    "tradename": "喜疗妥乳膏",
+    "standard": "14g/支",
+    "type": "其他药物",
+    "unit": "支"
+  },
+  {
+    "name": "复方角菜酸酯栓",
+    "tradename": "太宁栓",
+    "standard": "12粒/盒",
+    "type": "其他药物",
+    "unit": "盒"
+  },
+  {
+    "name": "枸橼酸西地那非片",
+    "tradename": "万艾可片",
+    "standard": "100mg*1片/盒",
+    "type": "其他药物",
+    "unit": "盒"
+  },
+  {
+    "name": "过氧化氢溶液",
+    "tradename": "双氧水",
+    "standard": "3%:100ml/瓶",
+    "type": "其他药物",
+    "unit": "瓶"
+  },
+  {
+    "name": "维A酸乳胶",
+    "tradename": "迪维霜",
+    "standard": "0.025%:15g/支",
+    "type": "其他药物",
+    "unit": "支"
+  },
+  {
+    "name": "盐酸伐地那非片",
+    "tradename": "艾力达",
+    "standard": "20mg*1片/盒",
+    "type": "其他药物",
+    "unit": "盒"
+  },
+  {
+    "name": "异维A酸胶丸",
+    "tradename": "泰尔丝",
+    "standard": "10mg*20粒/盒",
+    "type": "其他药物",
+    "unit": "盒"
+  }
+]
