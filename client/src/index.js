@@ -8,8 +8,10 @@ import { Router, Route, hashHistory, IndexRedirect } from 'react-router';
 import Page from './components/Page';
 import Login from './components/pages/Login';
 import CaseList from './components/case/CaseList';
+import CaseView from './components/case/CaseView';
 import HistoryList from './components/case/HistoryList';
 import { CaseNew, CaseEdit, CaseRecheck } from './components/case/CaseOps';
+import FetchList from './components/case/FetchList';
 import MedicineMgmt from './components/medicine/MedicineMgmt';
 import MedicineStockin from './components/medicine/MedicineStockin';
 import MedicineStockout from './components/medicine/MedicineStockout';
@@ -71,6 +73,8 @@ const routes =
                 <Route path={'edit/:id'} component={CaseEdit} />
                 <Route path={'recheck/:id'} component={CaseRecheck} />
                 <Route path={'history'} component={HistoryList} />
+                <Route path={'view/:id'} component={CaseView} />
+                <Route path={'fetchlist'} component={FetchList} />
             </Route>
             <Route path={'medicine'}>
                 <Route path={'list'} component={MedicineMgmt} />

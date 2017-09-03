@@ -1,6 +1,6 @@
 import axios from 'axios';
 import React from 'react';
-import { Row, Col, Card, Upload, Modal, Popconfirm, Input, Pagination, Select, Button, message } from 'antd';
+import { Switch, Icon, Row, Col, Card, Upload, Modal, Popconfirm, Input, Pagination, Select, Button, message } from 'antd';
 import BreadcrumbCustom from '../BreadcrumbCustom';
 import { Table } from 'antd';
 import moment from 'moment';
@@ -185,12 +185,23 @@ class PrescribeList extends React.Component {
             prescribeflag: false,
             prescribenewname: '',
             prescribenewdesc: '',
+            switcherOn: false,
+            allOpened: false,
+            allEditable: true,
         };
 
         this.keyIdx = 0;
     }
 
     componentDidMount() {
+        var allOpenedStr = localStorage.getItem('allOpenedPrescribe');
+        var allOpened = JSON.parse((allOpenedStr != null) ?  allOpenedStr : "false");
+        var allEditableStr = localStorage.getItem('allEditablePrescribe');
+        var allEditable = JSON.parse((allEditableStr != null) ?  allEditableStr : "false");
+
+        this.state.allOpened = allOpened;
+        this.state.allEditable = allEditable;
+
         this.onPageChange(this.state.pageNumber);
     }
 
@@ -454,7 +465,7 @@ class PrescribeList extends React.Component {
             for (var i = 0; i < prescribes.length; i++) {
                 data.push({
                     key: self.keyIdx++,
-                    editable: false,
+                    editable: self.state.allEditable,
                     editmeds: false,
                     _id: prescribes[i]._id,
                     name: prescribes[i].name,
@@ -548,14 +559,55 @@ class PrescribeList extends React.Component {
         }
     }
 
+    switcherOn = () => {
+        this.setState({
+            switcherOn: !this.state.switcherOn
+        })
+    };
+
+    onAllOpenedSwitch = (allOpened) => {
+        this.setState({allOpened}, () => {
+            localStorage.setItem('allOpenedPrescribe', JSON.stringify(allOpened));
+        })
+    };
+
+    onAllEditableSwitch = (allEditable) => {
+        this.setState({allEditable}, () => {
+            localStorage.setItem('allEditablePrescribe', JSON.stringify(allEditable));
+        })
+    };
+
     render() {
         const {
-            data, pageSize, pageNumber, totalRows, searchkey, prescribeflag, prescribenewname, prescribenewdesc
+            data, pageSize, pageNumber, totalRows, searchkey, prescribeflag, prescribenewname, prescribenewdesc,
+            switcherOn, allOpened, allEditable,
         } = this.state;
 
         return (
             <div className="gutter-example">
                 <BreadcrumbCustom first="处方" second="处方管理" />
+                <div className={`switcher dark-white ${switcherOn ? 'active' : ''}`}>
+                    <a className="sw-btn dark-white" onClick={this.switcherOn}>
+                        <Icon type="setting" className="text-dark" />
+                    </a>
+                    <div style={{padding: '1rem'}} className="clear">
+                        <div className="pull-left y-center mr-m mb-s">
+                            <label>缺省展开</label>
+                            <Switch checked={allOpened} onChange={() => this.onAllOpenedSwitch(!allOpened)} />
+                        </div>
+                    </div>
+                    <div style={{padding: '1rem'}} className="clear">
+                        <div className="pull-left y-center mr-m mb-s">
+                            <label>缺省编辑</label>
+                            <Switch checked={allEditable} onChange={() => this.onAllEditableSwitch(!allEditable)} />
+                        </div>
+                    </div>
+                    <div style={{padding: '1rem'}} className="clear">
+                        <div className="pull-left y-center mr-m mb-s">
+                            <a href="javascript:scrollTo(0,0);"><Icon style={{fontSize: 20}}  className="text-dark" type="up-square" /></a>
+                        </div>
+                    </div>
+                </div>
                 <Row gutter={16}>
                     <Col className="gutter-row">
                         <div className="gutter-box">
@@ -576,11 +628,15 @@ class PrescribeList extends React.Component {
                                 </Col>
                             </Row>
                             <Card bordered={false}>
+                            {data && data.length ?
                                 <Table
+                                    defaultExpandAllRows={allOpened}
                                     columns={this.columns}
                                     expandedRowRender={this.expandedRowRender.bind(this)}
-                                    dataSource={this.state.data}
+                                    dataSource={data}
                                     pagination={false}/>
+                                : '暂无数据'
+                            }
                             </Card>
                             <Row type="flex" justify="end" align="bottom">
                                 <Pagination

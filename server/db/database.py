@@ -116,8 +116,8 @@ class DataBase(object):
 
         return None
 
-    def findbypage(self, cond = None, limit = 10, skip = 0):
-        return [value for value in self.db.find(cond).sort('created', -1).skip(skip).limit(limit)]
+    def findbypage(self, cond = None, limit = 10, skip = 0, order=-1):
+        return [value for value in self.db.find(cond).sort('created', order).skip(skip).limit(limit)]
 
     def findbyid(self, _id):
         return self.db.find_one({'_id': ObjectId(_id)})

@@ -1,7 +1,7 @@
 import axios from 'axios';
 import React from 'react';
 import { hashHistory } from 'react-router';
-import { Row, Col, Card, Upload, Modal, Popconfirm, Pagination, Input, InputNumber, Select, Button, message, DatePicker, Checkbox, Icon } from 'antd';
+import { Switch, Row, Col, Card, Upload, Modal, Popconfirm, Pagination, Input, InputNumber, Select, Button, message, DatePicker, Checkbox, Icon } from 'antd';
 import BreadcrumbCustom from '../BreadcrumbCustom';
 import { Table } from 'antd';
 import moment from 'moment';
@@ -28,6 +28,9 @@ class HistoryList extends React.Component {
         daterange: [moment('2000/01/01', 'YYYY/MM/DD'), moment()],
         data: [],
         originalData: [],
+        switcherOn: false,
+        allOpened: false,
+        allEditable: true,
     };
 
     columns = [
@@ -59,6 +62,14 @@ class HistoryList extends React.Component {
     ];
 
     componentDidMount() {
+        var allOpenedStr = localStorage.getItem('allOpenedHistory');
+        var allOpened = JSON.parse((allOpenedStr != null) ?  allOpenedStr : "false");
+        var allEditableStr = localStorage.getItem('allEditableHistory');
+        var allEditable = JSON.parse((allEditableStr != null) ?  allEditableStr : "false");
+
+        this.state.allOpened = allOpened;
+        this.state.allEditable = allEditable;
+
         this.onPageChange(this.state.pageNumber);
     }
 
@@ -119,7 +130,7 @@ class HistoryList extends React.Component {
             }
         })
         .catch(function (error) {
-                console.log(error);
+            console.log(error);
         });
     }
 
@@ -163,8 +174,11 @@ class HistoryList extends React.Component {
             </div>
             :
             <div>
-                <Row type="flex" style={{float:'right'}}>
-                    <Col>
+                <Row style={{margin:4}} align="center">
+                    <Col span={20}>
+                        <pre style={{whiteSpace:'pre-wrap',wordWrap:'break-word'}}>{record.text}</pre>
+                    </Col>
+                    <Col span={4}>
                         {
                             ["gray", "orange", "green", "blue", "brown", "red"].map(function(item, index) {
                                 if (index > record.feedback) {
@@ -182,13 +196,6 @@ class HistoryList extends React.Component {
                                 }
                             })
                         }
-                    </Col>
-                </Row>
-                <Row style={{margin:4}} align="center">
-                    <Col span={20}>
-                        <pre>{record.text}</pre>
-                    </Col>
-                    <Col span={4}>
                         <Button type="dashed" size="small" onClick={()=>this.onHistoryEdit(record)}>编辑</Button>
                     </Col>
                 </Row>
@@ -203,7 +210,8 @@ class HistoryList extends React.Component {
             searchkey, searchtype,
             searchgender,
             searchageflag, searchagelow, searchagehigh,
-            daterangeflag, daterange
+            daterangeflag, daterange,
+            allEditable,
         } = this.state;
 
         axios.post('/api/history/list', {
@@ -251,7 +259,7 @@ class HistoryList extends React.Component {
                     occupation: historys[i].occupation,
                     text: historys[i].text,
                     feedback: historys[i].feedback,
-                    editable: true,
+                    editable: allEditable,
                 });
             }
 
@@ -349,15 +357,56 @@ class HistoryList extends React.Component {
         });
     }
 
+    switcherOn = () => {
+        this.setState({
+            switcherOn: !this.state.switcherOn
+        })
+    };
+
+    onAllOpenedSwitch = (allOpened) => {
+        this.setState({allOpened}, () => {
+            localStorage.setItem('allOpenedHistory', JSON.stringify(allOpened));
+        })
+    };
+
+    onAllEditableSwitch = (allEditable) => {
+        this.setState({allEditable}, () => {
+            localStorage.setItem('allEditableHistory', JSON.stringify(allEditable));
+        })
+    };
+
     render() {
         const {
             data, pageSize, pageNumber, totalRows, searchfeedback, searchkey, searchtype, searchgender, searchageflag, searchagelow, searchagehigh,
             daterangeflag, daterange,
+            switcherOn, allOpened, allEditable,
         } = this.state;
 
         return (
             <div className="gutter-example">
-                <BreadcrumbCustom first="病程记录" second="列表" />
+                <BreadcrumbCustom first="病程" second="列表" />
+                <div className={`switcher dark-white ${switcherOn ? 'active' : ''}`}>
+                    <a className="sw-btn dark-white" onClick={this.switcherOn}>
+                        <Icon type="setting" className="text-dark" />
+                    </a>
+                    <div style={{padding: '1rem'}} className="clear">
+                        <div className="pull-left y-center mr-m mb-s">
+                            <label>缺省展开</label>
+                            <Switch checked={allOpened} onChange={() => this.onAllOpenedSwitch(!allOpened)} />
+                        </div>
+                    </div>
+                    <div style={{padding: '1rem'}} className="clear">
+                        <div className="pull-left y-center mr-m mb-s">
+                            <label>缺省编辑</label>
+                            <Switch checked={allEditable} onChange={() => this.onAllEditableSwitch(!allEditable)} />
+                        </div>
+                    </div>
+                    <div style={{padding: '1rem'}} className="clear">
+                        <div className="pull-left y-center mr-m mb-s">
+                            <a href="javascript:scrollTo(0,0);"><Icon style={{fontSize: 20}}  className="text-dark" type="up-square" /></a>
+                        </div>
+                    </div>
+                </div>
                 <Row gutter={14}>
                     <Col className="gutter-row">
                         <div className="gutter-box">
@@ -425,11 +474,15 @@ class HistoryList extends React.Component {
                                 </Col>
                             </Row>
                             <Card bordered={false}>
+                            {data && data.length ?
                                 <Table
+                                    defaultExpandAllRows={allOpened}
                                     columns={this.columns}
                                     expandedRowRender={this.expandedRowRender.bind(this)}
                                     dataSource={data}
                                     pagination={false}/>
+                                : '暂无数据'
+                            }
                             </Card>
                             <Row type="flex" justify="end" align="bottom">
                                 <Pagination

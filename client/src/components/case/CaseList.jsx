@@ -1,11 +1,12 @@
 import axios from 'axios';
 import React from 'react';
 import { hashHistory } from 'react-router';
-import { Row, Col, Card, Upload, Modal, Popconfirm, Pagination, Input, InputNumber, Select, Button, message, DatePicker, Checkbox, Icon } from 'antd';
+import { Switch, Row, Col, Card, Upload, Modal, Popconfirm, Pagination, Input, InputNumber, Select, Button, message, DatePicker, Checkbox, Icon } from 'antd';
 import BreadcrumbCustom from '../BreadcrumbCustom';
 import { Table } from 'antd';
 import moment from 'moment';
 import { gender2str } from '../../utils';
+import CopyToClipboard from 'react-copy-to-clipboard';
 var _ = require('lodash');
 
 const { MonthPicker, RangePicker } = DatePicker;
@@ -30,6 +31,10 @@ class CaseList extends React.Component {
         originalData: [],
         previewVisible: false,
         previewImage: '',
+        switcherOn: false,
+        allOpened: false,
+        allEditable: true,
+        siteurl: ''
     };
 
     columns = [
@@ -40,14 +45,18 @@ class CaseList extends React.Component {
             if ((allergic != "") && (allergic != "无")) {
                 return (
                     <div>
-                        <p><font color="red">{text}</font></p>
+                        <CopyToClipboard text={this.state.siteurl+'/#/app/case/view/'+record._id}>
+                          <Button style={{'borderStyle':'none'}}><font color="red">{text}</font></Button>
+                        </CopyToClipboard>
                     </div>
                     );
             }
 
             return (
                 <div>
-                    <p>{text}</p>
+                        <CopyToClipboard text={this.state.siteurl+'/#/app/case/view/'+record._id}>
+                          <Button style={{'borderStyle':'none'}}>{text}</Button>
+                        </CopyToClipboard>
                 </div>
                 );
         }},
@@ -82,7 +91,28 @@ class CaseList extends React.Component {
     ];
 
     componentDidMount() {
-        this.onPageChange(this.state.pageNumber);
+        var allOpenedStr = localStorage.getItem('allOpenedCase');
+        var allOpened = JSON.parse((allOpenedStr != null) ?  allOpenedStr : "false");
+        var allEditableStr = localStorage.getItem('allEditableCase');
+        var allEditable = JSON.parse((allEditableStr != null) ?  allEditableStr : "false");
+
+        this.state.allOpened = allOpened;
+        this.state.allEditable = allEditable;
+
+        var self = this;
+
+        axios.post('/api/site/home', {})
+        .then(function (response) {
+            if (response.data.status == 0) {
+                self.state.siteurl = response.data.msg;
+                self.onPageChange(self.state.pageNumber);
+            } else {
+                message.error(response.data.msg);
+            }
+        })
+        .catch(function (error) {
+            console.log(error);
+        });
     }
 
     handlePictureCancel = () => this.setState({ previewVisible: false })
@@ -109,7 +139,7 @@ class CaseList extends React.Component {
             }
         })
         .catch(function (error) {
-                console.log(error);
+            console.log(error);
         });
     }
 
@@ -165,15 +195,15 @@ class CaseList extends React.Component {
                 <p>{gender2str(row.gender)}  {record.age}  {row.occupation} {row.education} {row.ethnic}</p>
                 <p>===  {moment(record.date).format("YYYY-MM-DD HH:MM:SS")}  ===</p>
                 <p>主诉: {record.complaint}</p>
-                <pre>现病史: {row.curr_complaint}</pre>
-                <pre>既往史: {row.past_complaint}</pre>
-                <pre>药物过敏史: <font color='red'>{row.allergic}</font></pre>
-                <pre>个人史: {row.experience}</pre>
-                <pre>婚育史: {row.marriage}</pre>
-                <pre>月经史: {row.menses}</pre>
-                <pre>家庭史: {row.family}</pre>
-                <pre>体格检查: {row.physical}</pre>
-                <pre>辅助检查: {row.examination}</pre>
+                <pre style={{whiteSpace:'pre-wrap',wordWrap:'break-word'}}>现病史: {row.curr_complaint}</pre>
+                <pre style={{whiteSpace:'pre-wrap',wordWrap:'break-word'}}>既往史: {row.past_complaint}</pre>
+                <pre style={{whiteSpace:'pre-wrap',wordWrap:'break-word'}}>药物过敏史: <font color='red'>{row.allergic}</font></pre>
+                <pre style={{whiteSpace:'pre-wrap',wordWrap:'break-word'}}>个人史: {row.experience}</pre>
+                <pre style={{whiteSpace:'pre-wrap',wordWrap:'break-word'}}>婚育史: {row.marriage}</pre>
+                <pre style={{whiteSpace:'pre-wrap',wordWrap:'break-word'}}>月经史: {row.menses}</pre>
+                <pre style={{whiteSpace:'pre-wrap',wordWrap:'break-word'}}>家庭史: {row.family}</pre>
+                <pre style={{whiteSpace:'pre-wrap',wordWrap:'break-word'}}>体格检查: {row.physical}</pre>
+                <pre style={{whiteSpace:'pre-wrap',wordWrap:'break-word'}}>辅助检查: {row.examination}</pre>
                 <Row>
                     <Upload
                         action=""
@@ -183,13 +213,13 @@ class CaseList extends React.Component {
                         onPreview={this.handlePicturePreview}>
                     </Upload>
                 </Row>
-                <pre>诊断: </pre>
+                <pre style={{whiteSpace:'pre-wrap',wordWrap:'break-word'}}>诊断: </pre>
                 {
                     row.diagnosises.map(function(item, idx) {
                         return (<pre key={i++}>&nbsp;&nbsp;&nbsp;{idx+1+""}. {item} </pre>);
                     })
                 }
-                <pre>治疗意见: </pre>
+                <pre style={{whiteSpace:'pre-wrap',wordWrap:'break-word'}}>治疗意见: </pre>
                 {
                     row.medicines.map(function(item) {
                         return (
@@ -222,7 +252,7 @@ class CaseList extends React.Component {
             searchkey, searchtype,
             searchgender,
             searchageflag, searchagelow, searchagehigh,
-            daterangeflag, daterange
+            daterangeflag, daterange,
         } = this.state;
 
         axios.post('/api/case/list', {
@@ -363,15 +393,56 @@ class CaseList extends React.Component {
         });
     }
 
+    switcherOn = () => {
+        this.setState({
+            switcherOn: !this.state.switcherOn
+        })
+    };
+
+    onAllOpenedSwitch = (allOpened) => {
+        this.setState({allOpened}, () => {
+            localStorage.setItem('allOpenedCase', JSON.stringify(allOpened));
+        })
+    };
+
+    onAllEditableSwitch = (allEditable) => {
+        this.setState({allEditable}, () => {
+            localStorage.setItem('allEditableCase', JSON.stringify(allEditable));
+        })
+    };
+
     render() {
         const {
             data, pageSize, pageNumber, totalRows, searchfeedback, searchkey, searchtype, searchgender, searchageflag, searchagelow, searchagehigh,
             daterangeflag, daterange,
+            switcherOn, allOpened, allEditable,
         } = this.state;
 
         return (
             <div className="gutter-example">
                 <BreadcrumbCustom first="病例" second="列表" />
+                <div className={`switcher dark-white ${switcherOn ? 'active' : ''}`}>
+                    <a className="sw-btn dark-white" onClick={this.switcherOn}>
+                        <Icon type="setting" className="text-dark" />
+                    </a>
+                    <div style={{padding: '1rem'}} className="clear">
+                        <div className="pull-left y-center mr-m mb-s">
+                            <label>缺省展开</label>
+                            <Switch checked={allOpened} onChange={() => this.onAllOpenedSwitch(!allOpened)} />
+                        </div>
+                    </div>
+                    <div style={{padding: '1rem'}} className="clear">
+                        <div className="pull-left y-center mr-m mb-s">
+                            <label>缺省编辑</label>
+                            <Switch checked={allEditable} onChange={() => this.onAllEditableSwitch(!allEditable)} />
+                        </div>
+                    </div>
+                    <div style={{padding: '1rem'}} className="clear">
+                        <div className="pull-left y-center mr-m mb-s">
+                            <a href="javascript:scrollTo(0,0);"><Icon style={{fontSize: 20}}  className="text-dark" type="up-square" /></a>
+                        </div>
+                    </div>
+                </div>
                 <Row gutter={14}>
                     <Col className="gutter-row">
                         <div className="gutter-box">
@@ -440,11 +511,15 @@ class CaseList extends React.Component {
                                 </Col>
                             </Row>
                             <Card bordered={false}>
+                            {data && data.length ?
                                 <Table
+                                    defaultExpandAllRows={allOpened}
                                     columns={this.columns}
                                     expandedRowRender={this.expandedRowRender.bind(this)}
                                     dataSource={data}
                                     pagination={false}/>
+                                : '暂无数据'
+                            }
                             </Card>
                             <Row type="flex" justify="end" align="bottom">
                                 <Pagination

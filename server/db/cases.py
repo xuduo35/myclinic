@@ -78,6 +78,7 @@ class CaseClass(DataBase):
                 "medicines": case["medicines"],
                 "pictures": case["pictures"],
                 "feedback": 0,
+                "fetchflag": False, # xxx: 已经导入的数据可能并不存在这一字段
             },
             created,
         )

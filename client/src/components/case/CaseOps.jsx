@@ -1,7 +1,7 @@
 import axios from 'axios';
 import React, { Component } from 'react';
 import { hashHistory } from 'react-router';
-import { Card, Radio, Input, Icon, Upload, Modal, DatePicker, Select, Row, Col, Button, AutoComplete, message } from 'antd';
+import { Card, Radio, Input, Icon, Upload, Modal, DatePicker, Select, Row, Col, Button, AutoComplete, Popconfirm, message } from 'antd';
 import BreadcrumbCustom from '../BreadcrumbCustom';
 import MedicineTable from './MedicineTable';
 import CaseOpsHistory from './CaseOpsHistory';
@@ -55,6 +55,7 @@ class CaseBase extends Component {
         prescribeflag: false,
         prescribenewname: '',
         prescribenewdesc: '',
+        fetchflag: false,
     };
 
     componentDidMount() {
@@ -151,6 +152,8 @@ class CaseBase extends Component {
     }
 
     handleSubmit = () => {
+        var {fetchflag} = this.state;
+
         if (this.state.caseobj.name == "") {
             message.error("姓名不能为空!");
             return;
@@ -223,7 +226,24 @@ class CaseBase extends Component {
             if (response.data.status != 0) {
                 message.error(response.data.msg);
             } else {
-                hashHistory.replace('/app/case/list');
+                if (!fetchflag) {
+                    hashHistory.replace('/app/case/list');
+                    return;
+                }
+
+                axios.post('/api/fetch/new', {
+                    _id: response.data.msg._id
+                })
+                .then(function (response) {
+                    if (response.data.status != 0) {
+                        message.error(response.data.msg);
+                    } else {
+                        hashHistory.replace('/app/case/list');
+                    }
+                })
+                .catch(function (error) {
+                    console.log(error);
+                });
             }
         })
         .catch(function (error) {
@@ -389,6 +409,16 @@ class CaseBase extends Component {
         this.setState(this.state);
     };
 
+    fetchMedicine = () => {
+        var {fetchflag} = this.state;
+
+        fetchflag = !fetchflag;
+
+        this.setState({fetchflag}, function() {
+            message.success(fetchflag?'提交后出药!':'取消成功');
+        });
+    };
+
     onPrescribeNewSave = () => {
         const { prescribenewname, prescribenewdesc } = this.state;
 
@@ -477,7 +507,14 @@ class CaseBase extends Component {
     }
 
     render() {
-        const { caseobj, previewVisible, previewImage, fileList, fileListExam, dataSource, dataSourceHistory, prescribeflag, prescribenewname, prescribenewdesc, dataSourcePrescribe } = this.state;
+        const {
+            type,
+            caseobj,
+            previewVisible, previewImage, fileList, fileListExam,
+            dataSource,
+            dataSourceHistory,
+            prescribeflag, prescribenewname, prescribenewdesc, dataSourcePrescribe, fetchflag
+        } = this.state;
         const uploadButton = (
           <div>
             <Icon type="plus" />
@@ -810,8 +847,9 @@ class CaseBase extends Component {
                                                 placeholder="输入处方名字"/>
                                         </Row>
                                         <MedicineTable data={this.state.medicines} style={{ width: '95%' }}/>
-                                        <Row type="flex" style={{ margin: 8, float: 'right' }}>
+                                        <Row type="flex" style={{ margin: 8, float: 'left' }}>
                                             <Button style={{ background: '#ececec' }} onClick={this.newPrescribe}>存成处方</Button>
+                                            <Button style={{ background: '#ececec' }} onClick={this.fetchMedicine}>{fetchflag?'取消':'出药'}</Button>
                                         </Row>
                                         <Modal
                                             visible={prescribeflag}
@@ -846,7 +884,13 @@ class CaseBase extends Component {
                             </Row>
                             <Row type="flex" justify="center" align="bottom">
                                 <Col>
+                                {(((type == "new") || (type == "recheck")) && !fetchflag) ?
+                                    <Popconfirm title="确定不开药提交?" onConfirm={() => this.handleSubmit()}>
+                                        <Button style={{ background: '#ececec' }}>提交</Button>
+                                    </Popconfirm>
+                                    :
                                     <Button style={{ background: '#ececec' }} onClick={this.handleSubmit}>提交</Button>
+                                }
                                 </Col>
                             </Row>
                         </Card>

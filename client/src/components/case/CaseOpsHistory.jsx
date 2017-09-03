@@ -152,15 +152,15 @@ class CaseOpsHistory extends React.Component {
                 <p>{gender2str(record.gender)}  {record.age}  {record.occupation} {record.education} {record.ethnic}</p>
                 <p>===  {moment(record.date).format("YYYY-MM-DD HH:MM:SS")}  ===</p>
                 <p>主诉: {record.complaint}</p>
-                <pre>现病史: {record.curr_complaint}</pre>
-                <pre>既往史: {record.past_complaint}</pre>
-                <pre>药物过敏史: <font color='red'>{record.allergic}</font></pre>
-                <pre>个人史: {record.experience}</pre>
-                <pre>婚育史: {record.marriage}</pre>
-                <pre>月经史: {record.menses}</pre>
-                <pre>家庭史: {record.family}</pre>
-                <pre>体格检查: {record.physical}</pre>
-                <pre>辅助检查: {record.examination}</pre>
+                <pre style={{whiteSpace:'pre-wrap',wordWrap:'break-word'}}>现病史: {record.curr_complaint}</pre>
+                <pre style={{whiteSpace:'pre-wrap',wordWrap:'break-word'}}>既往史: {record.past_complaint}</pre>
+                <pre style={{whiteSpace:'pre-wrap',wordWrap:'break-word'}}>药物过敏史: <font color='red'>{record.allergic}</font></pre>
+                <pre style={{whiteSpace:'pre-wrap',wordWrap:'break-word'}}>个人史: {record.experience}</pre>
+                <pre style={{whiteSpace:'pre-wrap',wordWrap:'break-word'}}>婚育史: {record.marriage}</pre>
+                <pre style={{whiteSpace:'pre-wrap',wordWrap:'break-word'}}>月经史: {record.menses}</pre>
+                <pre style={{whiteSpace:'pre-wrap',wordWrap:'break-word'}}>家庭史: {record.family}</pre>
+                <pre style={{whiteSpace:'pre-wrap',wordWrap:'break-word'}}>体格检查: {record.physical}</pre>
+                <pre style={{whiteSpace:'pre-wrap',wordWrap:'break-word'}}>辅助检查: {record.examination}</pre>
                 <Row>
                     <Upload
                         action=""
@@ -170,13 +170,13 @@ class CaseOpsHistory extends React.Component {
                         onPreview={this.handlePicturePreview}>
                     </Upload>
                 </Row>
-                <pre>诊断: </pre>
+                <pre style={{whiteSpace:'pre-wrap',wordWrap:'break-word'}}>诊断: </pre>
                 {
                     record.diagnosises.map(function(item, idx) {
                         return (<pre key={i++}>&nbsp;&nbsp;&nbsp;{idx+1+""}. {item} </pre>);
                     })
                 }
-                <pre>治疗意见: </pre>
+                <pre style={{whiteSpace:'pre-wrap',wordWrap:'break-word'}}>治疗意见: </pre>
                 {
                     record.medicines.map(function(item) {
                         return (

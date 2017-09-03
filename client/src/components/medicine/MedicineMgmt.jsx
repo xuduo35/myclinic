@@ -1,6 +1,6 @@
 import axios from 'axios';
 import React from 'react';
-import { Row, Col, Card, Upload, Modal, Popconfirm, Input, Pagination, Select, Button, message } from 'antd';
+import { Switch, Icon, Row, Col, Card, Upload, Modal, Popconfirm, Input, Pagination, Select, Button, message } from 'antd';
 import BreadcrumbCustom from '../BreadcrumbCustom';
 import { Table } from 'antd';
 import moment from 'moment';
@@ -508,10 +508,21 @@ class MeidicineMgmt extends React.Component {
             stockmedname: '',
             stockmedtradename: '',
             mednewflag: false,
+            switcherOn: false,
+            allOpened: false,
+            allEditable: true,
         };
     }
 
     componentDidMount() {
+        var allOpenedStr = localStorage.getItem('allOpenedMedicineMgmt');
+        var allOpened = JSON.parse((allOpenedStr != null) ?  allOpenedStr : "false");
+        var allEditableStr = localStorage.getItem('allEditableMedicineMgmt');
+        var allEditable = JSON.parse((allEditableStr != null) ?  allEditableStr : "false");
+
+        this.state.allOpened = allOpened;
+        this.state.allEditable = allEditable;
+
         this.onPageChange(this.state.pageNumber);
     }
 
@@ -742,8 +753,8 @@ class MeidicineMgmt extends React.Component {
             for (var i = 0; i < medicines.length; i++) {
                 data.push({
                     key: i,
-                    editable: false,
-                    editspec: false,
+                    editable: self.state.allEditable,
+                    editspec: self.state.allEditable,
                     _id: medicines[i]._id,
                     name: medicines[i].name,
                     tradename: medicines[i].tradename,
@@ -794,6 +805,24 @@ class MeidicineMgmt extends React.Component {
         });
     }
 
+    switcherOn = () => {
+        this.setState({
+            switcherOn: !this.state.switcherOn
+        })
+    };
+
+    onAllOpenedSwitch = (allOpened) => {
+        this.setState({allOpened}, () => {
+            localStorage.setItem('allOpenedMedicineMgmt', JSON.stringify(allOpened));
+        })
+    };
+
+    onAllEditableSwitch = (allEditable) => {
+        this.setState({allEditable}, () => {
+            localStorage.setItem('allEditableMedicineMgmt', JSON.stringify(allEditable));
+        })
+    };
+
     render() {
         const {
             data, pageSize, pageNumber, totalRows,
@@ -801,11 +830,34 @@ class MeidicineMgmt extends React.Component {
             mednewflag,
             searchkey,
             searchorder,
+            switcherOn, allOpened, allEditable,
         } = this.state;
 
         return (
             <div className="gutter-example">
                 <BreadcrumbCustom first="药品" second="药品管理" />
+                <div className={`switcher dark-white ${switcherOn ? 'active' : ''}`}>
+                    <a className="sw-btn dark-white" onClick={this.switcherOn}>
+                        <Icon type="setting" className="text-dark" />
+                    </a>
+                    <div style={{padding: '1rem'}} className="clear">
+                        <div className="pull-left y-center mr-m mb-s">
+                            <label>缺省展开</label>
+                            <Switch checked={allOpened} onChange={() => this.onAllOpenedSwitch(!allOpened)} />
+                        </div>
+                    </div>
+                    <div style={{padding: '1rem'}} className="clear">
+                        <div className="pull-left y-center mr-m mb-s">
+                            <label>缺省编辑</label>
+                            <Switch checked={allEditable} onChange={() => this.onAllEditableSwitch(!allEditable)} />
+                        </div>
+                    </div>
+                    <div style={{padding: '1rem'}} className="clear">
+                        <div className="pull-left y-center mr-m mb-s">
+                            <a href="javascript:scrollTo(0,0);"><Icon style={{fontSize: 20}}  className="text-dark" type="up-square" /></a>
+                        </div>
+                    </div>
+                </div>
                 <Row gutter={16}>
                     <Col className="gutter-row">
                         <div className="gutter-box">
@@ -834,11 +886,15 @@ class MeidicineMgmt extends React.Component {
                                 </Col>
                             </Row>
                             <Card bordered={false}>
+                            {data && data.length ?
                                 <Table
+                                    defaultExpandAllRows={allOpened}
                                     columns={this.columns}
                                     expandedRowRender={this.expandedRowRender.bind(this)}
-                                    dataSource={this.state.data}
+                                    dataSource={data}
                                     pagination={false}/>
+                                : '暂无数据'
+                            }
                             </Card>
                             <Row type="flex" justify="end" align="bottom">
                                 <Pagination

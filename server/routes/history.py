@@ -205,6 +205,7 @@ def history_new(u):
 
     body["topicid"] = ObjectId(body["topicid"])
     body["age"] = int(body["age"])
+    body["date"] = moment.date(body["date"]).done()
     body["birthdate"] = moment.date(body["birthdate"]).done()
 
     History.new(body)

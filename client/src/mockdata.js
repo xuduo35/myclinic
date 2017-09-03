@@ -57,7 +57,7 @@ var allcases = [{
     ageUnit: 'year',
     birthdate: moment().subtract('years', 45),
     phone: '15618888888',
-    email: 'zhangsan@sina.com',
+    email: 'zhangshan@sina.com',
     address: '福建莆田绿宝石村',
     ethnic: '汉族',
     education: '本科',
@@ -106,6 +106,7 @@ var allcases = [{
         'https://gss2.bdstatic.com/-fo3dSag_xI4khGkpoWK1HF6hhy/baike/w%3D268%3Bg%3D0/sign=9b8ec28343540923aa696478aa63b634/f3d3572c11dfa9ec9c2c6ab768d0f703918fc10b.jpg'
     ],
     feedback: 0,
+    fetchflag: false,
     lastmod: moment(),
     created: moment(),
 }];
@@ -390,27 +391,7 @@ Mock.mock('/api/case/new', function(req) {
     var topicid = body.topicid || null; // 复诊topicid不空
     var medicines = body.medicines;
 
-    for (var i = 0; i < body.medicines.length; i++) {
-      var medicine = medicines[i];
-
-      // xxx: 首先查找(name, tradename)是否存在，扣除药物数量(药物数量换算成最大的那个单位，比如'盒')
-      // xxx: 此处省略一百字，数据库操作
-      // xxx: 如果库存为0, 则生成缺货信息, 更新当前用户统计
-
-      stockouts.push({
-        _id: idgenerator(),
-        name: medicine.name,
-        standard: medicine.standard,
-        dose: medicine.dose,
-        unit: medicine.unit,
-        price: medicine.price,
-        freqdaily: medicine.freqdaily,
-        days: medicine.days,
-        total: medicine.total,
-        money: medicine.money,
-        created: moment(),
-      });
-    }
+    // xxx: 出药记录移动到/api/fetchlist/complete
 
     var birthdate = moment();
 
@@ -454,6 +435,7 @@ Mock.mock('/api/case/new', function(req) {
         diagnosises: [],
         medicines: body.medicines,
         pictures: body.pictures || [],
+        feedback: 0,
         lastmod: moment(),
         created: moment(),
     };
@@ -467,7 +449,9 @@ Mock.mock('/api/case/new', function(req) {
 
     return {
       status: 0,
-      msg: onecase
+      msg: {
+        _id: onecase._id
+      }
     };
 });
 
@@ -566,7 +550,9 @@ Mock.mock('/api/case/modify', function(req) {
 
     return {
       status: 0,
-      msg: {}
+      msg: {
+        _id: onecase._id
+      }
     };
 });
 
@@ -600,6 +586,132 @@ Mock.mock('/api/case/feedback', function(req) {
 
     if (idx >= 0) {
         allcases[idx].feedback = feedback;
+    }
+
+    return {
+      status: 0,
+      msg: {}
+    };
+});
+
+Mock.mock('/api/fetch/list', function(req) {
+    var body = JSON.parse(req.body);
+    var searchkey = body.searchkey || ''; // xxx
+    var pn = body.pn - 1;
+    var ps = body.ps;
+    var from = ps * pn;
+    var index = 0;
+    var msg = [];
+
+    (pn < 0) && (pn = 0);
+    (ps < 10) && (ps = 10);
+
+    for (var i = 0; i < allcases.length; i++) {
+      if (typeof(allcases[i].fetchflag) == 'undefined' || !allcases[i].fetchflag) {
+        continue;
+      }
+
+      if (allcases[i].name.indexOf(searchkey) < 0) {
+        continue;
+      }
+
+      if (msg.length >= ps) {
+        break;
+      }
+
+      if (index >= from) {
+        msg.push(allcases[i]);
+      }
+
+      index++;
+    }
+
+    return {
+        status: 0,
+        msg: {
+            data: msg,
+            total: index
+        }
+    };
+});
+
+Mock.mock('/api/fetch/new', function(req) {
+    var body = JSON.parse(req.body);
+    var _id = body._id;
+
+    var idx = _.findIndex(allcases, function(item) {
+        return (item._id == _id);
+    });
+
+    if (idx >= 0) {
+        allcases[idx].fetchflag = true;
+
+      return {
+        status: 0,
+        msg: {}
+      };
+    } else {
+      return {
+        status: 1,
+        msg: '病例不存在'
+      };
+    }
+});
+
+Mock.mock('/api/fetch/complete', function(req) {
+    var body = JSON.parse(req.body);
+    var _id = body._id;
+    var msg = [];
+
+    var idx = _.findIndex(allcases, function(item) {
+        return (item._id == _id);
+    });
+
+    if (idx >= 0) {
+        var c = allcases[idx];
+
+        for (var i = 0; i < c.medicines.length; i++) {
+          var medicine = c.medicines[i];
+
+          // xxx: 首先查找(name, tradename)是否存在，扣除药物数量(药物数量换算成最大的那个单位，比如'盒')
+          // xxx: 此处省略一百字，数据库操作
+          // xxx: 如果库存为0, 则生成缺货信息, 更新当前用户统计
+
+          stockouts.push({
+            _id: idgenerator(),
+            name: medicine.name,
+            standard: medicine.standard,
+            dose: medicine.dose,
+            unit: medicine.unit,
+            price: medicine.price,
+            freqdaily: medicine.freqdaily,
+            days: medicine.days,
+            total: medicine.total,
+            money: medicine.money,
+            created: moment(),
+          });
+        }
+
+        c.fetchflag = false;
+    }
+
+    return {
+      status: 0,
+      msg: {}
+    };
+});
+
+Mock.mock('/api/fetch/remove', function(req) {
+    var body = JSON.parse(req.body);
+    var _id = body._id;
+    var msg = [];
+
+    var idx = _.findIndex(allcases, function(item) {
+        return (item._id == _id);
+    });
+
+    if (idx >= 0) {
+        allcases[idx].fetchflag = false;
     }
 
     return {
@@ -642,6 +754,7 @@ Mock.mock('/api/history/new', function(req) {
         married: body.married,
         occupation: body.occupation,
         text: body.text,
+        feedback: 0,
         lastmod: moment(),
         created: moment(),
     };
@@ -1421,6 +1534,15 @@ Mock.mock('/api/notification/clear', function(req) {
     return {
         status: 0,
         msg: {}
+    };
+});
+
+Mock.mock('/api/site/home', function(req) {
+    var serverurl = "http://127.0.0.1:3000";
+
+    return {
+        status: 0,
+        msg: serverurl
     };
 });
 

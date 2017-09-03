@@ -68,8 +68,9 @@ class SiderCustom extends Component {
                         key="/app/case"
                         title={<span><Icon type="bars" /><span className="nav-text">病例</span></span>}>
                         <Menu.Item key="/app/case/list"><Link to={'/app/case/list'}>总览</Link></Menu.Item>
+                        <Menu.Item key="/app/case/history"><Link to={'/app/case/history'}>病程</Link></Menu.Item>
                         <Menu.Item key="/app/case/new"><Link to={'/app/case/new'}>新建</Link></Menu.Item>
-                        <Menu.Item key="/app/case/history"><Link to={'/app/case/history'}>病程记录</Link></Menu.Item>
+                        <Menu.Item key="/app/case/fetchlist"><Link to={'/app/case/fetchlist'}>取药</Link></Menu.Item>
                     </SubMenu>
                     <SubMenu
                         key="/app/medicine"

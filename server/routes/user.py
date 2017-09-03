@@ -114,6 +114,14 @@ if platform.system() != "Windows":
 else:
     localIP = socket.gethostbyname(socket.gethostname())
 
+@routes.route('/api/site/home', methods=['POST'])
+@requires_auth
+def site_home(u):
+    response_data = {}
+    response_data['status'] = 0
+    response_data['msg'] = 'http://'+localIP+':'+str(config.data['serverport'])
+    return Response(json.dumps(response_data, cls=CJsonEncoder), mimetype='application/json')
+
 @routes.route('/api/dashboard/stats', methods=['POST'])
 @requires_auth
 def dashboard_stats(u):

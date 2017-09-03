@@ -93,7 +93,6 @@ def case_list(u):
     }
     return Response(json.dumps(response_data, cls=CJsonEncoder), mimetype='application/json')
 
-
 @routes.route('/api/case/names', methods=['POST'])
 @requires_auth
 def case_names(u):
@@ -257,8 +256,10 @@ def case_modify(u):
 
     response_data = {}
     response_data['status'] = 0
-    response_data['msg'] = {}
-    return Response(json.dumps(response_data), mimetype='application/json')
+    response_data['msg'] = {
+        '_id': onecase['_id'],
+    }
+    return Response(json.dumps(response_data, cls=CJsonEncoder), mimetype='application/json')
 
 
 @routes.route('/api/case/new', methods=['POST'])
@@ -327,20 +328,134 @@ def case_new(u):
     body["date"] = moment.date(body["date"]).done()
 
     try:
-        Case.new(body)
+        _id = Case.new(body)
     except Exception, e:
         response_data = {}
         response_data['status'] = 1
         response_data['msg'] = "新建病例失败"
         return Response(json.dumps(response_data), mimetype='application/json')
 
+    # 病人年龄范围统计
+    ageidx = User.ageidx(body["age"], body["ageUnit"])
+    u['agerange'][ageidx] = u['agerange'][ageidx] + 1
+
+    u['casenum'] = u['casenum'] + 1
+    User.save(u)
+
+    response_data['status'] = 0
+    response_data['msg'] = {
+        '_id': _id
+    }
+    return Response(json.dumps(response_data, cls=CJsonEncoder), mimetype='application/json')
+
+
+@routes.route('/api/case/topic', methods=['POST'])
+@requires_auth
+def case_topic(u):
+    body = request.get_json()
+    topicid = body['topicid'].strip()
+
+    cases = [case for case in Case.find({'topicid':ObjectId(topicid)})]
+
+    response_data = {}
+    response_data['status'] = 0
+    response_data['msg'] = cases
+    return Response(json.dumps(response_data, cls=CJsonEncoder), mimetype='application/json')
+
+@routes.route('/api/fetch/list', methods=['POST'])
+@requires_auth
+def fetch_list(u):
+    body = request.get_json()
+    searchkey = body['searchkey'].strip()
+    searchtype = body['searchtype'].strip()
+    searchgender = body['searchgender']
+    searchageflag = str2bool(body['searchageflag'])
+    daterangeflag = str2bool(body['daterangeflag'])
+
+    ps = body['ps']
+    pn = body['pn'] - 1
+
+    if ps < 0:
+        ps = 10
+
+    if pn < 0:
+        pn = 0
+
+    begin = ps * pn
+
+    cond = {
+        'fetchflag': True
+    }
+
+    if searchkey != '':
+        cond[searchtype] = re.compile(searchkey)
+
+    if searchgender != 'all':
+        cond['gender'] = searchgender
+
+    if searchageflag:
+        try:
+            searchagelow = int(body['searchagelow'])
+            searchagehigh = int(body['searchagehigh'])
+        except Exception, e:
+            searchagelow = 0
+            searchagehigh = 100
+
+        cond['ageAbs'] = {'$gte':searchagelow,'$lte':searchagehigh}
+
+    if daterangeflag:
+        daterange = body['daterange']
+        fromdate = moment.date(daterange[0])
+        enddate = moment.date(daterange[1])
+        cond['date'] = {'$gte':fromdate.done(),'$lte':enddate.done()}
+
+    cases = Case.findbypage(cond, ps, begin, 1)
+    total = Case.count(cond)
+
+    response_data = {}
+    response_data['status'] = 0
+    response_data['msg'] = {
+        'data': cases,
+        'total': total
+    }
+    return Response(json.dumps(response_data, cls=CJsonEncoder), mimetype='application/json')
+
+@routes.route('/api/fetch/new', methods=['POST'])
+@requires_auth
+def fetch_new(u):
+    body = request.get_json()
+    _id = body['_id'].strip()
+
+    case = Case.findbyid(_id)
+    case['fetchflag'] = True
+    Case.save(case)
+
+    response_data = {}
+    response_data['status'] = 0
+    response_data['msg'] = {}
+    return Response(json.dumps(response_data, cls=CJsonEncoder), mimetype='application/json')
+
+@routes.route('/api/fetch/complete', methods=['POST'])
+@requires_auth
+def fetch_complete(u):
+    body = request.get_json()
+    _id = body['_id'].strip()
+
+    case = Case.findbyid(_id)
+    case['fetchflag'] = False
+    Case.save(case)
+
     # 必须在添加病例之后
-    for medicine in body['medicines']:
+    for medicine in case['medicines']:
         name = medicine["name"]
         tradename = ""
 
         if name.find("(") and name.find(")"):
             matchs = re.match("(.*)\((.*)\)", name)
+
+            if not matchs:
+                continue
+
             name = matchs.group(1)
             tradename = matchs.group(2)
 
@@ -384,27 +499,22 @@ def case_new(u):
 
                     Medicine.save(m)
 
-    # 病人年龄范围统计
-    ageidx = User.ageidx(body["age"], body["ageUnit"])
-    u['agerange'][ageidx] = u['agerange'][ageidx] + 1
-
-    u['casenum'] = u['casenum'] + 1
-    User.save(u)
-
+    response_data = {}
     response_data['status'] = 0
     response_data['msg'] = {}
-    return Response(json.dumps(response_data), mimetype='application/json')
+    return Response(json.dumps(response_data, cls=CJsonEncoder), mimetype='application/json')
 
-
-@routes.route('/api/case/topic', methods=['POST'])
+@routes.route('/api/fetch/remove', methods=['POST'])
 @requires_auth
-def case_topic(u):
+def fetch_remove(u):
     body = request.get_json()
-    topicid = body['topicid'].strip()
+    _id = body['_id'].strip()
 
-    cases = [case for case in Case.find({'topicid':ObjectId(topicid)})]
+    case = Case.findbyid(_id)
+    case['fetchflag'] = False
+    Case.save(case)
 
     response_data = {}
     response_data['status'] = 0
-    response_data['msg'] = cases
+    response_data['msg'] = {}
     return Response(json.dumps(response_data, cls=CJsonEncoder), mimetype='application/json')
