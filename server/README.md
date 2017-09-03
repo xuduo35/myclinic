@@ -10,6 +10,8 @@ pip install moment
 
 pip install dbfread
 
+* copy config.json.template to config.json.
+
 * run:
 
 python main.py
