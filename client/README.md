@@ -1,4 +1,4 @@
 ## myclinic client
-* 安装: npm install
-* 测试: 修改src/index.js第一行，去掉注释。npm start
-* 发布: npm run build; npm run copy，代码会拷贝到../server/public下。然后按照服务器执行步骤。
+* install: npm install
+* test: modify first line of src/index.js，remove comment。then do 'npm start'
+* publish: npm run build; npm run copy, front end code will be moved to ../server/public. now you can run it under ../server directory.
